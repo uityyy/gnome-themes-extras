@@ -1,12 +1,22 @@
-Package: gnome-themes-extras
-Version: 2.22.0-3
-Architecture: all
-Maintainer: Josselin Mouette <joss@debian.org>
-Installed-Size: 12698
-Depends: gtk2-engines (>= 1:2.14), librsvg2-common
-Recommends: gnome-themes-more
+Source: gnome-themes-extras
 Section: gnome
 Priority: optional
+Maintainer: Josselin Mouette <joss@debian.org>
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@ubuntu.com>, Loic Minier <lool@dooz.org>
+Build-Depends: debhelper (>= 5),
+               cdbs,
+               gnome-pkg-tools
+Build-Depends-Indep: icon-naming-utils,
+                     intltool,
+                     pkg-config
+Standards-Version: 3.8.0
+
+Package: gnome-themes-extras
+Architecture: all
+Depends: ${misc:Depends},
+         gtk2-engines (>= 1:2.14),
+         librsvg2-common
+Recommends: gnome-themes-more
 Description: extra themes for the GNOME desktop
  This package contains a few nice contributed themes for the GNOME
  desktop. It includes the following global themes:
@@ -16,9 +26,9 @@ Description: extra themes for the GNOME desktop
  .
  It also includes some icon themes for the desktop:
  .
-  * GNOME Alternative, which is similar to the standard GNOME icon
+  * GNOME Alternative, which is similar to the standard GNOME icon 
     theme.
   * Foxtrot, a simple theme in yellow tones.
-  * Dropline Neu, a flashy and colorful theme resembling Dropline
+  * Dropline Neu, a flashy and colorful theme resembling Dropline 
     GNOME.
   * Gion, an original and sober theme.
