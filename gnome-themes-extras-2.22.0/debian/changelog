@@ -1,0 +1,413 @@
+gnome-themes-extras (2.22.0-3) unstable; urgency=low
+
+  * Remove the duplicate icon cache generation, now that 
+    update-icon-caches always does it.
+  * gtk-engines-2.pc: do not require gtk+-2.0. Closes: #521868.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 09 Apr 2009 20:43:50 +0200
+
+gnome-themes-extras (2.22.0-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 06 Mar 2009 18:26:33 +0100
+
+gnome-themes-extras (2.22.0-1) experimental; urgency=low
+
+  * New upstream release, with completely new themes. The former ones 
+    are now in gnome-themes-more.
+  * Make the package non-native again.
+  * Get parts of the packaging from gnome-themes, including the 
+    gtk2-engines pkg-config file.
+  * Completely rehaul the copyright, control.in and rules files.
+  * Recommend gnome-themes-more so that the old themes are still 
+    installed upon upgrades.
+  * 01_darklooks_tooltips.patch: new patch. Fix a typo in the darklooks 
+    gtkrc that prevents it from being loaded at all.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 31 Dec 2008 12:31:34 +0100
+
+gnome-themes-extras (0.9.0.deb0.4) unstable; urgency=low
+
+  [ Loic Minier ]
+  * Use @THEMES@ in prerm.in as well; closes: #454952.
+
+  [ Josselin Mouette ]
+  * rules: fix bashism. Closes: #484387.
+
+  [ Emilio Pozuelo Monfort ]
+  * debian/control.in: wrap depends/build-depends/replaces.
+
+  [ Loic Minier ]
+  * Cleanup whitespaces.
+
+ -- Emilio Pozuelo Monfort <pochu@ubuntu.com>  Fri, 04 Jul 2008 17:19:18 +0200
+
+gnome-themes-extras (0.9.0.deb0.3) unstable; urgency=low
+
+  * themes/Amaranth/gtk-2.0/gtkrc: don't include iconrc
+    (closes: #425726).
+  * Same for SphereCrystal (closes: #428036), Wasp, Lush.
+  * Remove applications-games icons in Amaranth and Gorilla as they 
+    don't look like joysticks as they should.
+    + Use Nuvola's icon in Gorilla.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 17 Jul 2007 21:04:20 +0200
+
+gnome-themes-extras (0.9.0.deb0.2) unstable; urgency=low
+
+  * Upload to unstable (closes: #421021).
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 25 Apr 2007 23:53:14 +0200
+
+gnome-themes-extras (0.9.0.deb0.1) experimental; urgency=low
+
+  [ Loic Minier ]
+  * Add a get-orig-source target to retrieve the upstream tarball.
+
+  [ Josselin Mouette ]
+  * Fork the package from upstream.
+  * Make it Debian-native.
+  * Convert themes to use the freedesktop icon naming specification.
+  * Integrate the SphereCrystal theme and kill the 
+    gtk2-engines-spherecrystal package.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 26 Feb 2007 00:37:07 +0100
+
+gnome-themes-extras (0.9.0-5) unstable; urgency=low
+
+  * Fix watch file.
+  * Fix bashism.
+  * Bump up Debhelper compatibility level to 5.
+  * Prepend a number to patch names to reflect the order in which these are
+    applied.
+  * Ship full license blob.
+
+ -- Loic Minier <lool@dooz.org>  Sun,  3 Sep 2006 13:30:45 +0200
+
+gnome-themes-extras (0.9.0-4) unstable; urgency=low
+
+  * Depend on gtk2-engines.
+  * Bump standards-version.
+  * rules: eliminate more Adobe cruft (closes: #369650).
+
+ -- Josselin Mouette <joss@debian.org>  Thu,  1 Jun 2006 21:08:45 +0200
+
+gnome-themes-extras (0.9.0-3) unstable; urgency=low
+
+  * links, icons/index.theme, control.in, rules:
+    + Remove the hardcoded paths for gnomedev.
+    + Generate them automatically from the gnome-icon-theme package.
+    + Also use apps/ and stock/.
+  * (Build-)Depend on gnome-icon-theme.
+
+ -- Josselin Mouette <joss@debian.org>  Mon,  3 Apr 2006 23:55:31 +0200
+
+gnome-themes-extras (0.9.0-2) unstable; urgency=low
+
+  * links: add links for WebDAV shares (gnome-fs-share.svg).
+
+ -- Josselin Mouette <joss@debian.org>  Sun,  5 Mar 2006 17:13:04 +0100
+
+gnome-themes-extras (0.9.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * prerm: clean the gnomedev icon cache.
+  * links: remove some unneeded links.
+  * rules: remove /usr/share/locale, it is useless.
+  * install, icons/*/: don't install the icons, integrated upstream.
+  * stock-icons.patch: integrated upstream (except the Lush part).
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 19 Feb 2006 00:12:21 +0100
+
+gnome-themes-extras (0.8.1-4) unstable; urgency=low
+
+  * icons/index.theme: make the hack theme hidden.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 14 Nov 2005 23:33:06 +0100
+
+gnome-themes-extras (0.8.1-3) unstable; urgency=low
+
+  * icons/Nuvola/: add volume control icons for Nuvola.
+    + links: remove the links for these icons.
+    + install: install them.
+  * Create the gnomedev pseudo-theme to allow inheritance from only some 
+    parts of the gnome icon theme.
+    + icons/icon.theme: the icon theme description.
+    + links: link only the devices/ directories from 
+      /usr/share/icons/gnome.
+    + postinst: create the icon cache.
+    + rules: replace inheritance from gnome with this one.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 14 Nov 2005 22:36:43 +0100
+
+gnome-themes-extras (0.8.1-2) unstable; urgency=low
+
+  * debian/watch: updated.
+  * stock-icons.patch: add scalable/stock to the index.theme of the icon
+    themes.
+  * Standards-version is 3.6.2.
+  * icons/: add cute icons for the volume control applet.
+  * install: install them.
+  * links: add missing links for all those volume icons, they are 
+    necessary as we don't use inheritance.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 12 Oct 2005 21:18:22 +0200
+
+gnome-themes-extras (0.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * gtk-engines-2.pc: copied from gnome-themes; required for the dumb
+    pkg-config check. Update rules accordingly.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 25 Mar 2005 22:09:44 +0100
+
+gnome-themes-extras (0.8.0-3) unstable; urgency=low
+
+  * postinst, prerm: use gtk-update-icon-cache to update icon-theme.cache
+    files.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 16 Feb 2005 19:19:13 +0100
+
+gnome-themes-extras (0.8.0-2) unstable; urgency=low
+
+  * rules, patches/lush-metacity.patch, lush-galaxy-metacity.tgz.uue: ship the
+    Galaxy metacity theme in the Galaxy/ directory, and modify the index.theme
+    to use it in the Lush metatheme (closes: #266342).
+  * patches/nuvola-gtkrc.patch: comment out the [xy]thickness directives
+    (closes: #261043, #283982).
+  * control.in: recommend gtk-engines-smooth (closes: #272444).
+  * links: add loads of symbolic links to match the current freedesktop.org
+    MIME types (closes: #287728).
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 15 Feb 2005 20:50:50 +0100
+
+gnome-themes-extras (0.8.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Our tarball modifications are now included upstream.
+  * rules: remove inheritance in icons/*/index.theme after installation.
+  * links: removed some unnecessary links, updated some others.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 16 Nov 2004 17:38:04 +0100
+
+gnome-themes-extras (0.7.debian.1-2) unstable; urgency=low
+
+  * links:
+    + add missing icons not inherited from default theme:
+      gnome-dev-floppy, gnome-dev-removable, gnome-fs-desktop,
+      gnome-dev-keyboard, gnome-dev-mouse-optical (closes: #253684).
+    + link in /usr/share/themes/Nuvola from gtk to gtk-1.0.
+  * sanitize_icons.patch: a few icons display bad with librsvg 2.7.2,
+    re-save them in sodipodi/inkscape to remove a few errors.
+  * control.in: require debhelper 4.1.0.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 23 Jun 2004 20:28:52 +0200
+
+gnome-themes-extras (0.7.debian.1-1) unstable; urgency=low
+
+  * Modifications in upstream tarball:
+    + */icons/index.theme.in: remove Inherits stuff, it shouldn't be here.
+    + give it a better version number.
+  * links: create links for "my computer" and directory-accept icons.
+  * control.in: build-depend on libxml-parser-perl (closes: #252042).
+
+ -- Josselin Mouette <joss@debian.org>  Tue,  1 Jun 2004 20:07:30 +0200
+
+gnome-themes-extras (0.7.0-1) unstable; urgency=low
+
+  * Modifications in upstream tarball:
+    + Gorilla/icons/scalable/stock/stock_dialog_warning.svg: remove non-free
+      font glyph.
+    + Wasp/icons/index.theme.in: Wasp should inherit from default theme's
+      icons (closes: #237250).
+    + */icons/scalable/mimetypes/Makefile.am: OGG files are application/ogg
+      now, not application/x-ogg.
+    + Amaranth/icons/scalable/apps/Makefile.am: 
+      - We should now include all Amaranth icons.
+      - gpdf.svg was renamed to gnome-pdf.svg, update the symlink too.
+    + Add missing icons in Nuvola (closes: #245324):
+      - Nuvola/gtk-2.0/iconrc.in: this is stock_stop, not stock_stock.
+      - Nuvola/icons/scalable/stock/Makefile.am: add stock_ok.svg.
+    + Wasp/gtk-2.0/iconrc.in: the file is named gaim_info.svg, not
+      gaim-dialog-info.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 30 May 2004 15:08:46 +0200
+
+gnome-themes-extras (0.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * copyright.Wasp: mention Caleb Moore.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 20 Apr 2004 15:46:36 +0200
+
+gnome-themes-extras (0.6-1) unstable; urgency=low
+
+  * New upstream release.
+    + Includes missing icons from Amaranth (closes: #225198).
+    + Gorilla's iconrc is fixed (closes: #227949).
+  * Update copyright for Wasp metacity theme.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 17 Jan 2004 13:35:47 +0100
+
+gnome-themes-extras (0.5-1) unstable; urgency=low
+
+  * New upstream release. Now use upstream official releases.
+  * Switch to cdbs.
+  * Add the GNOME team stuff, use the subversion repository.
+  * Remove the patch in Gorilla's iconrc, capplet-icons are commented 
+    out now.
+
+ -- Josselin Mouette <joss@debian.org>  Tue,  9 Dec 2003 18:53:07 +0100
+
+gnome-themes-extras (0.4-1) unstable; urgency=low
+
+  * New upstream release (0.4 from CVS).
+  * Standards-version is 3.6.1.
+  * Build-depend on sharutils (closes: #213859).
+  * Don't depend on pixbuf engine explicitly.
+
+ -- Josselin Mouette <joss@debian.org>  Sat,  4 Oct 2003 17:19:06 +0200
+
+gnome-themes-extras (0.3-1) unstable; urgency=low
+
+  * New upstream release (pulled 0.3 from CVS).
+  * Don't build Smooth and Industrial.
+  * Use debian/compat.
+  * Ship the Galaxy metacity theme in an extra tarball.
+  * Remove gtk2-engines-* packages.
+
+ -- Josselin Mouette <joss@debian.org>  Sun, 17 Aug 2003 22:18:26 +0200
+
+gnome-themes-extras (0.2+20030719-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * Standards-version is 3.6.0:
+    - Move debhelper from build-depends-indep to build-depends.
+  * Add Amaranth theme:
+    - Update description.
+    - Add copyright.Amaranth.
+    - Depend on gtk2-engines-pixbuf.
+  * Wasp/icons/scalable/apps/Makefile.am: remove a missing icon.
+  * Amaranth/metacity-1/Makefile.am: doc files shouldn't get installed.
+  * debian/rules: don't act on symlinks with perl stuff.
+  * {Nuvola,Lush}/icons/scalable/apps/Makefile.am: typos.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 19 Jul 2003 15:47:49 +0200
+
+gnome-themes-extras (0.1+20030620-3) unstable; urgency=low
+
+  * Replace Lush metacity theme with Galaxy's.
+  * Make the Lush GTK theme use the same colors as Galaxy
+    (closes: #199219).
+  * Correct typo in Gorilla's iconrc (closes: #198811).
+
+ -- Josselin Mouette <joss@debian.org>  Tue,  1 Jul 2003 16:12:50 +0200
+
+gnome-themes-extras (0.1+20030620-2) unstable; urgency=low
+
+  * debian/control: make the old gtk2-engines packages depend on a
+    minimal version of gnome-themes-extras (closes: #198451).
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 23 Jun 2003 20:37:21 +0200
+
+gnome-themes-extras (0.1+20030620-1) unstable; urgency=low
+
+  * New upstream release from CVS (closes: #198213).
+    - Differs from 0.1 only by new supported translations.
+  * Do as upstream and drop Galaxy, it can be easily replaced by
+    the smooth engine.
+  * Include everything in an arch-all package.
+  * Make gtk2-engines-{nuvola,wasp,gorilla} dummy packages depending
+    on gnome-themes-extras.
+  * Make priority optional so that gnome can depend on
+    gnome-themes-extras.
+  * Standards-version is 3.5.10.
+  * Use the provided Gorilla metacity theme.
+  * Remove all debconf stuff, as we depend on
+    gtk2-engines-spherecrystal.
+  * Eliminate all Adobe Illustrator's nonstandard features at install
+    time in SVG files (closes: #193739).
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 20 Jun 2003 13:08:03 +0200
+
+gnome-themes-extras (0+20030515-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * Don't provide the smooth engine anymore, the new package from Ross
+    Burton will take care of it. In the meantime, some themes will be
+    uninstallable for a few days.
+  * Updated packages descriptions, pointing to screenshots.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 15 May 2003 14:41:04 +0200
+
+gnome-themes-extras (0+20030512-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * Now provide the Wasp theme.
+  * Use common files for debconf stuff.
+  * The Nuvola metacity theme is now included upstream.
+  * Don't print the debconf message when we can't detect whether there 
+    are GTK applications running.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 12 May 2003 17:50:47 +0200
+
+gnome-themes-extras (0+20030422-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * Now provide the Nuvola theme, with a metacity theme derived from
+    the GnomeIridium theme.
+  * The smooth engine is provided in a separate package.
+  * Use the right file in config scripts for detection of running GTK+
+    apps.
+  * Provide a gnome-themes-extras metapackage.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 24 Apr 2003 16:34:25 +0200
+
+gnome-themes-extras (0+20030406-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * The Galaxy engine is now at the right place.
+  * Correct build dependencies (closes: #187771).
+  * Moved section to gnome.
+
+ -- Josselin Mouette <joss@debian.org>  Sun,  6 Apr 2003 12:20:21 +0200
+
+gnome-themes-extras (0+20030331-1) unstable; urgency=low
+
+  * New upstream release from CVS.
+  * Include Galaxy+Lush, but not BlueSphere (already in SphereCrystal)
+    nor Nuvola, waiting for upstream to include SphereCrystal in
+    gnome-themes-extras.
+  * Standards-version is 3.5.9.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 31 Mar 2003 13:50:39 +0200
+
+gnome-themes-extras (0+20030328-1) unstable; urgency=low
+
+  * New upstream release, pulled from CVS.
+  * Don't include the Nuvola theme yet, it is far from finished.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 28 Mar 2003 14:59:53 +0100
+
+gnome-themes-extras (0+20020211-3) unstable; urgency=low
+
+  * Added debconf message when installing while librsvg2-common is not
+    here and GTK+ applications are running.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 14 Mar 2003 11:25:43 +0100
+
+gnome-themes-extras (0+20020211-2) unstable; urgency=low
+
+  * Use cleanice instead of mist.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 12 Feb 2003 13:53:25 +0100
+
+gnome-themes-extras (0+20020211-1) unstable; urgency=low
+
+  * Initial Release (closes: #180592).
+  * Gorilla/index.theme.in: use AgingGorilla for metacity until Gorilla
+    is included in the Debian package.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 11 Feb 2003 23:42:35 +0100
+

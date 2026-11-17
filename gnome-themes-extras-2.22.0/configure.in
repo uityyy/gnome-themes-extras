@@ -1,0 +1,208 @@
+AC_PREREQ(2.53)
+AC_INIT(gnome-themes-extras, 2.22.0)
+
+AM_CONFIG_HEADER(config.h)
+
+ACLOCAL_FLAGS="-I m4"
+AC_SUBST(ACLOCAL_AMFLAGS, $ACLOCAL_FLAGS)
+
+AM_INIT_AUTOMAKE([1.9 tar-pax])
+
+# Honor aclocal flags
+ACLOCAL="$ACLOCAL $ACLOCAL_FLAGS"
+
+GETTEXT_PACKAGE=gnome-themes-extras
+AC_SUBST(GETTEXT_PACKAGE)
+
+AM_MAINTAINER_MODE
+
+AC_PROG_INTLTOOL([0.23])
+AC_PROG_CC
+AC_PROG_INSTALL
+
+# No static please
+AM_DISABLE_STATIC
+
+# Initialize libtool
+AM_PROG_LIBTOOL
+
+PKG_CHECK_MODULES(GTK_ENGINES_2, gtk-engines-2 >= 2.14.0,, AC_MSG_ERROR([gtk-engines-2 >= 2.14.0 is required to compile gnome-themes-extras]))
+
+# Checks for header files.
+AC_HEADER_STDC
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+# Checks for endianness (needed by GdkRgb).
+AC_C_BIGENDIAN
+
+# Checks for library functions.
+AC_TYPE_SIGNAL
+AC_FUNC_MMAP
+AC_FUNC_ALLOCA
+AC_CHECK_FUNCS(setenv putenv)
+
+ALL_LINGUAS= oc
+AM_GLIB_GNU_GETTEXT
+
+UTILS_REQUIRED=0.8.1
+
+AC_MSG_CHECKING([icon-naming-utils >= $UTILS_REQUIRED])
+PKG_CHECK_EXISTS(icon-naming-utils >= $UTILS_REQUIRED, have_utils=yes, have_utils=no)
+if test "x$have_utils" = "xyes"; then
+	UTILS_PATH="`$PKG_CONFIG --variable=program_path icon-naming-utils`"
+	ICONMAP="$UTILS_PATH/icon-name-mapping"
+	AC_SUBST(ICONMAP)
+	AC_MSG_RESULT([yes])
+else
+	AC_MSG_RESULT([no])
+	AC_MSG_ERROR([icon-naming-utils >= $UTILS_REQUIRED is required to build
+	and install gnome-icon-theme])
+fi
+
+AC_OUTPUT([
+Makefile
+gnome-themes-extras.spec
+desktop-themes/Makefile
+desktop-themes/Darklooks/Makefile
+desktop-themes/Unity/Makefile
+gtk-themes/Makefile
+gtk-themes/Darklooks/Makefile
+gtk-themes/Darklooks/gtk-2.0/Makefile
+gtk-themes/Unity/Makefile
+gtk-themes/Unity/gtk-2.0/Makefile
+icon-themes/Makefile
+icon-themes/Foxtrot/Makefile
+icon-themes/Foxtrot/16x16/Makefile
+icon-themes/Foxtrot/16x16/actions/Makefile
+icon-themes/Foxtrot/16x16/places/Makefile
+icon-themes/Foxtrot/16x16/status/Makefile
+icon-themes/Foxtrot/22x22/Makefile
+icon-themes/Foxtrot/22x22/actions/Makefile
+icon-themes/Foxtrot/22x22/places/Makefile
+icon-themes/Foxtrot/22x22/status/Makefile
+icon-themes/Foxtrot/24x24/Makefile
+icon-themes/Foxtrot/24x24/actions/Makefile
+icon-themes/Foxtrot/24x24/places/Makefile
+icon-themes/Foxtrot/24x24/status/Makefile
+icon-themes/Foxtrot/scalable/Makefile
+icon-themes/Foxtrot/scalable/actions/Makefile
+icon-themes/Foxtrot/scalable/categories/Makefile
+icon-themes/Foxtrot/scalable/devices/Makefile
+icon-themes/Foxtrot/scalable/places/Makefile
+icon-themes/Foxtrot/scalable/status/Makefile
+icon-themes/Gion/Makefile
+icon-themes/Gion/16x16/Makefile
+icon-themes/Gion/16x16/actions/Makefile
+icon-themes/Gion/16x16/apps/Makefile
+icon-themes/Gion/16x16/devices/Makefile
+icon-themes/Gion/16x16/mimetypes/Makefile
+icon-themes/Gion/16x16/places/Makefile
+icon-themes/Gion/22x22/Makefile
+icon-themes/Gion/22x22/actions/Makefile
+icon-themes/Gion/22x22/apps/Makefile
+icon-themes/Gion/22x22/devices/Makefile
+icon-themes/Gion/22x22/mimetypes/Makefile
+icon-themes/Gion/22x22/places/Makefile
+icon-themes/Gion/22x22/status/Makefile
+icon-themes/Gion/24x24/Makefile
+icon-themes/Gion/24x24/actions/Makefile
+icon-themes/Gion/24x24/apps/Makefile
+icon-themes/Gion/24x24/devices/Makefile
+icon-themes/Gion/24x24/mimetypes/Makefile
+icon-themes/Gion/24x24/places/Makefile
+icon-themes/Gion/24x24/status/Makefile
+icon-themes/Gion/48x48/Makefile
+icon-themes/Gion/48x48/actions/Makefile
+icon-themes/Gion/48x48/apps/Makefile
+icon-themes/Gion/48x48/categories/Makefile
+icon-themes/Gion/48x48/devices/Makefile
+icon-themes/Gion/48x48/mimetypes/Makefile
+icon-themes/Gion/48x48/places/Makefile
+icon-themes/Gion/48x48/status/Makefile
+icon-themes/Gion/128x128/Makefile
+icon-themes/Gion/128x128/actions/Makefile
+icon-themes/Gion/128x128/apps/Makefile
+icon-themes/Gion/128x128/categories/Makefile
+icon-themes/Gion/128x128/devices/Makefile
+icon-themes/Gion/128x128/mimetypes/Makefile
+icon-themes/Gion/128x128/places/Makefile
+icon-themes/Gion/128x128/status/Makefile
+icon-themes/Gion/scalable/Makefile
+icon-themes/Gion/scalable/actions/Makefile
+icon-themes/Gion/scalable/apps/Makefile
+icon-themes/Gion/scalable/categories/Makefile
+icon-themes/Gion/scalable/devices/Makefile
+icon-themes/Gion/scalable/mimetypes/Makefile
+icon-themes/Gion/scalable/places/Makefile
+icon-themes/Gion/scalable/status/Makefile
+icon-themes/gnome-alternative/Makefile
+icon-themes/gnome-alternative/16x16/Makefile
+icon-themes/gnome-alternative/16x16/actions/Makefile
+icon-themes/gnome-alternative/16x16/places/Makefile
+icon-themes/gnome-alternative/16x16/status/Makefile
+icon-themes/gnome-alternative/22x22/Makefile
+icon-themes/gnome-alternative/22x22/actions/Makefile
+icon-themes/gnome-alternative/22x22/places/Makefile
+icon-themes/gnome-alternative/22x22/status/Makefile
+icon-themes/gnome-alternative/24x24/Makefile
+icon-themes/gnome-alternative/24x24/actions/Makefile
+icon-themes/gnome-alternative/24x24/places/Makefile
+icon-themes/gnome-alternative/24x24/status/Makefile
+icon-themes/gnome-alternative/32x32/Makefile
+icon-themes/gnome-alternative/32x32/actions/Makefile
+icon-themes/gnome-alternative/32x32/places/Makefile
+icon-themes/gnome-alternative/32x32/status/Makefile
+icon-themes/gnome-alternative/scalable/Makefile
+icon-themes/gnome-alternative/scalable/actions/Makefile
+icon-themes/gnome-alternative/scalable/places/Makefile
+icon-themes/gnome-alternative/scalable/status/Makefile
+icon-themes/Neu/Makefile
+icon-themes/Neu/22x22/Makefile
+icon-themes/Neu/22x22/actions/Makefile
+icon-themes/Neu/22x22/apps/Makefile
+icon-themes/Neu/22x22/categories/Makefile
+icon-themes/Neu/22x22/devices/Makefile
+icon-themes/Neu/22x22/emblems/Makefile
+icon-themes/Neu/22x22/mimetypes/Makefile
+icon-themes/Neu/22x22/places/Makefile
+icon-themes/Neu/22x22/status/Makefile
+icon-themes/Neu/24x24/Makefile
+icon-themes/Neu/24x24/actions/Makefile
+icon-themes/Neu/24x24/apps/Makefile
+icon-themes/Neu/24x24/categories/Makefile
+icon-themes/Neu/24x24/devices/Makefile
+icon-themes/Neu/24x24/mimetypes/Makefile
+icon-themes/Neu/24x24/places/Makefile
+icon-themes/Neu/24x24/status/Makefile
+icon-themes/Neu/48x48/Makefile
+icon-themes/Neu/48x48/actions/Makefile
+icon-themes/Neu/48x48/apps/Makefile
+icon-themes/Neu/48x48/categories/Makefile
+icon-themes/Neu/48x48/devices/Makefile
+icon-themes/Neu/48x48/emblems/Makefile
+icon-themes/Neu/48x48/mimetypes/Makefile
+icon-themes/Neu/48x48/places/Makefile
+icon-themes/Neu/48x48/status/Makefile
+icon-themes/Neu/128x128/Makefile
+icon-themes/Neu/128x128/actions/Makefile
+icon-themes/Neu/128x128/apps/Makefile
+icon-themes/Neu/128x128/categories/Makefile
+icon-themes/Neu/128x128/devices/Makefile
+icon-themes/Neu/128x128/emblems/Makefile
+icon-themes/Neu/128x128/mimetypes/Makefile
+icon-themes/Neu/128x128/places/Makefile
+icon-themes/Neu/128x128/status/Makefile
+icon-themes/Neu/scalable/Makefile
+icon-themes/Neu/scalable/actions/Makefile
+icon-themes/Neu/scalable/apps/Makefile
+icon-themes/Neu/scalable/categories/Makefile
+icon-themes/Neu/scalable/devices/Makefile
+icon-themes/Neu/scalable/emblems/Makefile
+icon-themes/Neu/scalable/mimetypes/Makefile
+icon-themes/Neu/scalable/places/Makefile
+icon-themes/Neu/scalable/status/Makefile
+metacity-themes/Makefile
+po/Makefile.in
+])

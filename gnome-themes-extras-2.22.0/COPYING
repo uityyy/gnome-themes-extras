@@ -1,0 +1,16 @@
+The included themes are released under the following licenses:
+
+desktop-themes/Darklooks:      GPL2+
+desktop-themes/Unity:          GPL2+
+gtk-themes/Darklooks:          GPL2+
+gtk-themes/Unity:              GPL2+
+icon-themes/Foxtrot:           CC-BY-SA
+icon-themes/Gion:              GPL2
+icon-themes/gnome-alternative: GPL2
+icon-themes/Neu:               GPL2
+metacity-themes/Unity:         GPL2+
+
+A full copy of the GNU General Public License version 2 can be found in
+COPYING.GPL2,
+a full copy of the Creative Commons Attribution Share-Alike license version
+2.5 can be found in COPYING.CCBYSA25.

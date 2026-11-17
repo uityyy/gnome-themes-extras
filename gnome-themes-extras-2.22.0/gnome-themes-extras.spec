@@ -1,0 +1,58 @@
+Summary: Additional themes collection for GNOME
+Name: gnome-themes-extras
+Version: 2.22.0
+Release: 0
+License: Various
+Group: User Interface/Desktop
+Source: %{name}-%{version}.tar.gz
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
+
+%description
+Additional GNOME themes
+
+%prep
+%setup
+
+%build
+%configure
+make
+
+%install
+rm -rf ${RPM_BUILD_ROOT}
+%makeinstall
+### Remove files not to be installed
+rm -f $RPM_BUILD_ROOT%{_libdir}/gtk-2.0/@GTK_BINARY_VERSION@/engines/*.la
+rm -f $RPM_BUILD_ROOT%{_libdir}/gtk-2.0/@GTK_BINARY_VERSION@/engines/*.a
+
+%clean
+rm -rf ${RPM_BUILD_ROOT}
+
+%files
+%defattr(-, root, root)
+%{_datadir}/icons/*
+%{_datadir}/themes/*
+%{_datadir}/locale/*
+%doc AUTHORS MAINTAINERS ChangeLog COPYING README TODO
+
+%changelog
+* Mon Jul 30 2007 Andrea Cimitan <andrea.cimitan@gmail.com>
+- First update before rework starts
+
+* Fri Feb 11 2005 Christian Schaller <uraeus@gnome.org>
+- Update for dependency on new gtk-engines
+
+* Sat Jun 05 2004 Christian Schaller <uraeus@gnome.org>
+- Re-add translations
+
+* Mon Jul 14 2003 Håvard Wigtil <havardw@stud.ntnu.no>
+- Add translations to files section
+
+* Thu May 01 2003 Yanko Kaneti <yaneti@declera.com>
+- use the GTK_BINARY_VERSION autoconf variable
+
+* Thu May 01 2003 Christian Schaller <Uraeus@gnome.org>
+- Added buildreqs
+- Added obsoletes Nuvola
+
+* Wed Apr 02 2003 Yanko Kaneti <yaneti@declera.com>
+- First spec

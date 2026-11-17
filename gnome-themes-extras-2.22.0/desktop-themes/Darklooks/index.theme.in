@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Darklooks
+Type=X-GNOME-Metatheme
+_Comment=A dark Clearlooks theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Darklooks
+MetacityTheme=Clearlooks
+IconTheme=Foxtrot

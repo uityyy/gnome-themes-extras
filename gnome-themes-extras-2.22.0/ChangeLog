@@ -1,0 +1,1695 @@
+2008-04-02  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* NEWS:
+	* configure.ac:
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	* icon-themes/Foxtrot/16x16/Makefile.am:
+	* icon-themes/Foxtrot/16x16/places/Makefile.am:
+	* icon-themes/Foxtrot/16x16/places/user-trash.svg:
+	* icon-themes/Foxtrot/16x16/status/Makefile.am:
+	* icon-themes/Foxtrot/16x16/status/user-trash-full.svg:
+	* icon-themes/Foxtrot/22x22/places/Makefile.am:
+	* icon-themes/Foxtrot/22x22/places/user-trash.svg:
+	* icon-themes/Foxtrot/22x22/status/Makefile.am:
+	* icon-themes/Foxtrot/22x22/status/user-trash-full.svg:
+	* icon-themes/Foxtrot/24x24/Makefile.am:
+	* icon-themes/Foxtrot/24x24/status/Makefile.am:
+	Added few icons to Foxtrot.
+	Bumped version to 2.22.0
+
+2008-03-21  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	* icon-themes/gnome-alternative/index.theme.in:
+	Fixes in the Unity's treeview header
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	I like these new colors for the notebook
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	Less bright notebook
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	Better code
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	Removed useless code
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* desktop-themes/Unity/Makefile.am:
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	I broke Darklooks's metatheme, now fixed
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	More radius
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.ac:
+	* desktop-themes/Unity/index.theme.in:
+	Fixed desktop metatheme
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.ac:
+	gnome-themes-extras depends on gtk-engines 2.14.0 (gnome 2.22.0)
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* COPYING:
+	GNOME_alternative is now gnome-alternative
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* desktop-themes/Unity/Makefile.in:
+	* desktop-themes/Unity/index.theme.ine:
+	* desktop-themes/Unity/index.themee:
+	* gtk-themes/Unity/Makefile.in:
+	* gtk-themes/Unity/gtk-2.0/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/actions/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/places/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/status/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/actions/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/places/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/status/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/actions/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/places/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/status/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/actions/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/places/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/status/Makefile.in:
+	* icon-themes/gnome-alternative/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/actions/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/places/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/status/Makefile.in:
+	* metacity-themes/Makefile.in:
+	Makefile.in files are genereated locally by autogen, should be removed
+
+2008-03-18  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* COPYING:
+	* Makefile.am:
+	* configure.ac:
+	* desktop-themes/Makefile.am:
+	* desktop-themes/Unity/AUTHORS:
+	* desktop-themes/Unity/Makefile.am:
+	* desktop-themes/Unity/Makefile.in:
+	* desktop-themes/Unity/index.theme.in:
+	* desktop-themes/Unity/index.theme.ine:
+	* desktop-themes/Unity/index.themee:
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	* gtk-themes/Makefile.am:
+	* gtk-themes/Unity/AUTHORS:
+	* gtk-themes/Unity/Makefile.am:
+	* gtk-themes/Unity/Makefile.in:
+	* gtk-themes/Unity/gtk-2.0/Makefile.am:
+	* gtk-themes/Unity/gtk-2.0/Makefile.in:
+	* gtk-themes/Unity/gtk-2.0/gtkrc:
+	* icon-themes/Gion/COPYING:
+	* icon-themes/Makefile.am:
+	* icon-themes/Neu/COPYING:
+	* icon-themes/gnome-alternative/16x16/Makefile.am:
+	* icon-themes/gnome-alternative/16x16/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/actions/Makefile.am:
+	* icon-themes/gnome-alternative/16x16/actions/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/places/Makefile.am:
+	* icon-themes/gnome-alternative/16x16/places/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/places/folder-remote-ftp.svg:
+	* icon-themes/gnome-alternative/16x16/places/folder-remote-smb.svg:
+	* icon-themes/gnome-alternative/16x16/places/folder-remote-ssh.svg:
+	* icon-themes/gnome-alternative/16x16/places/folder-remote.icon:
+	* icon-themes/gnome-alternative/16x16/places/folder-remote.svg:
+	* icon-themes/gnome-alternative/16x16/places/folder-saved-search.sv
+	g:
+	* icon-themes/gnome-alternative/16x16/places/folder.icon:
+	* icon-themes/gnome-alternative/16x16/places/folder.svg:
+	* icon-themes/gnome-alternative/16x16/places/gnome-fs-dav.svg:
+	* icon-themes/gnome-alternative/16x16/places/user-home.svg:
+	* icon-themes/gnome-alternative/16x16/status/Makefile.am:
+	* icon-themes/gnome-alternative/16x16/status/Makefile.in:
+	* icon-themes/gnome-alternative/16x16/status/folder-drag-accept.ico
+	n:
+	* icon-themes/gnome-alternative/16x16/status/folder-open.icon:
+	* icon-themes/gnome-alternative/16x16/status/folder-visiting.icon:
+	* icon-themes/gnome-alternative/22x22/Makefile.am:
+	* icon-themes/gnome-alternative/22x22/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/actions/Makefile.am:
+	* icon-themes/gnome-alternative/22x22/actions/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/actions/document-open.svg:
+	* icon-themes/gnome-alternative/22x22/actions/folder-new.svg:
+	* icon-themes/gnome-alternative/22x22/places/Makefile.am:
+	* icon-themes/gnome-alternative/22x22/places/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/places/folder-remote-ftp.svg:
+	* icon-themes/gnome-alternative/22x22/places/folder-remote-smb.svg:
+	* icon-themes/gnome-alternative/22x22/places/folder-remote-ssh.svg:
+	* icon-themes/gnome-alternative/22x22/places/folder-remote.icon:
+	* icon-themes/gnome-alternative/22x22/places/folder-remote.svg:
+	* icon-themes/gnome-alternative/22x22/places/folder-saved-search.sv
+	g:
+	* icon-themes/gnome-alternative/22x22/places/folder.icon:
+	* icon-themes/gnome-alternative/22x22/places/folder.svg:
+	* icon-themes/gnome-alternative/22x22/places/gnome-fs-dav.svg:
+	* icon-themes/gnome-alternative/22x22/places/user-home.svg:
+	* icon-themes/gnome-alternative/22x22/status/Makefile.am:
+	* icon-themes/gnome-alternative/22x22/status/Makefile.in:
+	* icon-themes/gnome-alternative/22x22/status/folder-drag-accept.ico
+	n:
+	* icon-themes/gnome-alternative/22x22/status/folder-drag-accept.svg
+	:
+	* icon-themes/gnome-alternative/22x22/status/folder-open.icon:
+	* icon-themes/gnome-alternative/22x22/status/folder-open.svg:
+	* icon-themes/gnome-alternative/22x22/status/folder-visiting.icon:
+	* icon-themes/gnome-alternative/22x22/status/folder-visiting.svg:
+	* icon-themes/gnome-alternative/24x24/Makefile.am:
+	* icon-themes/gnome-alternative/24x24/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/actions/Makefile.am:
+	* icon-themes/gnome-alternative/24x24/actions/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/places/Makefile.am:
+	* icon-themes/gnome-alternative/24x24/places/Makefile.in:
+	* icon-themes/gnome-alternative/24x24/status/Makefile.am:
+	* icon-themes/gnome-alternative/24x24/status/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/Makefile.am:
+	* icon-themes/gnome-alternative/32x32/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/actions/Makefile.am:
+	* icon-themes/gnome-alternative/32x32/actions/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/actions/document-open.svg:
+	* icon-themes/gnome-alternative/32x32/actions/folder_new.svg:
+	* icon-themes/gnome-alternative/32x32/places/Makefile.am:
+	* icon-themes/gnome-alternative/32x32/places/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/places/folder-remote-ftp.svg:
+	* icon-themes/gnome-alternative/32x32/places/folder-remote-smb.svg:
+	* icon-themes/gnome-alternative/32x32/places/folder-remote-ssh.svg:
+	* icon-themes/gnome-alternative/32x32/places/folder-remote.svg:
+	* icon-themes/gnome-alternative/32x32/places/folder-saved-search.sv
+	g:
+	* icon-themes/gnome-alternative/32x32/places/folder.svg:
+	* icon-themes/gnome-alternative/32x32/places/folder_home.svg:
+	* icon-themes/gnome-alternative/32x32/status/Makefile.am:
+	* icon-themes/gnome-alternative/32x32/status/Makefile.in:
+	* icon-themes/gnome-alternative/32x32/status/folder-drag-accept.ico
+	n:
+	* icon-themes/gnome-alternative/32x32/status/folder-drag-accept.svg
+	:
+	* icon-themes/gnome-alternative/32x32/status/folder-open.icon:
+	* icon-themes/gnome-alternative/32x32/status/folder-open.svg:
+	* icon-themes/gnome-alternative/32x32/status/folder-visiting.icon:
+	* icon-themes/gnome-alternative/32x32/status/folder-visiting.svg:
+	* icon-themes/gnome-alternative/AUTHORS:
+	* icon-themes/gnome-alternative/Makefile.am:
+	* icon-themes/gnome-alternative/Makefile.in:
+	* icon-themes/gnome-alternative/index.theme.in:
+	* icon-themes/gnome-alternative/scalable/Makefile.am:
+	* icon-themes/gnome-alternative/scalable/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/actions/Makefile.am:
+	* icon-themes/gnome-alternative/scalable/actions/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/actions/document-open.svg:
+	* icon-themes/gnome-alternative/scalable/actions/folder-new.svg:
+	* icon-themes/gnome-alternative/scalable/places/Makefile.am:
+	* icon-themes/gnome-alternative/scalable/places/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/places/folder-remote-ftp.s
+	vg:
+	* icon-themes/gnome-alternative/scalable/places/folder-remote-smb.s
+	vg:
+	* icon-themes/gnome-alternative/scalable/places/folder-remote-ssh.s
+	vg:
+	* icon-themes/gnome-alternative/scalable/places/folder-remote.icon:
+	* icon-themes/gnome-alternative/scalable/places/folder-remote.svg:
+	* icon-themes/gnome-alternative/scalable/places/folder-saved-search
+	.svg:
+	* icon-themes/gnome-alternative/scalable/places/folder.icon:
+	* icon-themes/gnome-alternative/scalable/places/folder.svg:
+	* icon-themes/gnome-alternative/scalable/places/user-home.svg:
+	* icon-themes/gnome-alternative/scalable/status/Makefile.am:
+	* icon-themes/gnome-alternative/scalable/status/Makefile.in:
+	* icon-themes/gnome-alternative/scalable/status/document-open.svg:
+	* icon-themes/gnome-alternative/scalable/status/folder-drag-accept.
+	icon:
+	* icon-themes/gnome-alternative/scalable/status/folder-drag-accept.
+	svg:
+	* icon-themes/gnome-alternative/scalable/status/folder-open.icon:
+	* icon-themes/gnome-alternative/scalable/status/folder-open.svg:
+	* icon-themes/gnome-alternative/scalable/status/folder-visiting.ico
+	n:
+	* icon-themes/gnome-alternative/scalable/status/folder-visiting.svg
+	:
+	* metacity-themes/Makefile.am:
+	* metacity-themes/Makefile.in:
+	* metacity-themes/Unity/metacity-theme-1.xml:
+	First upload of Unity and GNOME-Alternative, may be problematic
+
+2008-02-29  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* AUTHORS:
+	* COPYING:
+	* desktop-themes/Darklooks/index.theme.in:
+	* icon-themes/Foxtrot/index.theme.in:
+	* icon-themes/Gion/index.theme.in:
+	* icon-themes/Neu/index.theme.in:
+	Fixing bug #496096.
+	Patch by Werner Pantke
+
+2007-10-14  Yannig Marchegay  <yannig@marchegay.org>
+
+	* configure.ac: Added 'oc' to ALL_LINGUAS.
+
+2007-09-12  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.ac:
+	2.20 release
+	
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	Darken selected_bg
+
+2007-09-11  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	Changed tooltip color
+
+2007-09-11  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	Changed base text color
+
+2007-09-09  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.ac:
+	Bump version to 2.19.92
+	
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	Use uncolorized scrollbars
+
+2007-08-20  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	Updated
+
+2007-08-05  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.ac:
+	* icon-themes/Gion/16x16/Makefile.am:
+	* icon-themes/Gion/16x16/devices/Makefile.am:
+	* icon-themes/Gion/16x16/mimetypes/Makefile.am:
+	Added more 16x16 mipetypes and devices icons
+
+2007-07-31  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* Makefile.am:
+	* NEWS:
+	* configure.ac:
+	* icon-themes/Foxtrot/Makefile.am:
+	* icon-themes/Gion/Makefile.am:
+	* icon-themes/Neu/Makefile.am:
+	Updated Makefile.am to fix make distcheck
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* AUTHORS:
+	* Makefile.am:
+	* autogen.sh:
+	* configure.ac:
+	* configure.in:
+	* desktop-themes/Darklooks/Makefile.am:
+	* desktop-themes/Darklooks/index.theme.in:
+	* desktop-themes/Makefile.am:
+	* gnome-themes-extras.spec.in:
+	* gtk-themes/Darklooks/Makefile.am:
+	* gtk-themes/Darklooks/gtk-2.0/Makefile.am:
+	* gtk-themes/Darklooks/gtk-2.0/gtkrc:
+	* gtk-themes/Makefile.am:
+	Added Darklooks gtk theme
+	Moved to configure.ac
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* icon-themes/Foxtrot/AUTHORS:
+	Added AUTHORS file to Foxtrot
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* AUTHORS:
+	* NEWS:
+	* configure.in:
+	* icon-themes/Foxtrot/16x16/Makefile.am:
+	* icon-themes/Foxtrot/22x22/Makefile.am:
+	* icon-themes/Foxtrot/24x24/Makefile.am:
+	* icon-themes/Foxtrot/Makefile.am:
+	* icon-themes/Foxtrot/scalable/Makefile.am:
+	* icon-themes/Gion/AUTHORS:
+	* icon-themes/Gion/Makefile.am:
+	* icon-themes/Gion/index.theme:
+	* icon-themes/Makefile.am:
+	* icon-themes/Neu/128x128/Makefile.am:
+	* icon-themes/Neu/128x128/actions/Makefile.am:
+	* icon-themes/Neu/128x128/apps/Makefile.am:
+	* icon-themes/Neu/128x128/categories/Makefile.am:
+	* icon-themes/Neu/128x128/devices/Makefile.am:
+	* icon-themes/Neu/128x128/emblems/Makefile.am:
+	* icon-themes/Neu/128x128/mimetypes/Makefile.am:
+	* icon-themes/Neu/128x128/places/Makefile.am:
+	* icon-themes/Neu/128x128/status/Makefile.am:
+	* icon-themes/Neu/22x22/Makefile.am:
+	* icon-themes/Neu/22x22/actions/Makefile.am:
+	* icon-themes/Neu/22x22/apps/Makefile.am:
+	* icon-themes/Neu/22x22/categories/Makefile.am:
+	* icon-themes/Neu/22x22/devices/Makefile.am:
+	* icon-themes/Neu/22x22/emblems/Makefile.am:
+	* icon-themes/Neu/22x22/mimetypes/Makefile.am:
+	* icon-themes/Neu/22x22/places/Makefile.am:
+	* icon-themes/Neu/22x22/status/Makefile.am:
+	* icon-themes/Neu/24x24/Makefile.am:
+	* icon-themes/Neu/24x24/actions/Makefile.am:
+	* icon-themes/Neu/24x24/apps/Makefile.am:
+	* icon-themes/Neu/24x24/categories/Makefile.am:
+	* icon-themes/Neu/24x24/devices/Makefile.am:
+	* icon-themes/Neu/24x24/mimetypes/Makefile.am:
+	* icon-themes/Neu/24x24/places/Makefile.am:
+	* icon-themes/Neu/24x24/status/Makefile.am:
+	* icon-themes/Neu/48x48/Makefile.am:
+	* icon-themes/Neu/48x48/actions/Makefile.am:
+	* icon-themes/Neu/48x48/apps/Makefile.am:
+	* icon-themes/Neu/48x48/categories/Makefile.am:
+	* icon-themes/Neu/48x48/devices/Makefile.am:
+	* icon-themes/Neu/48x48/emblems/Makefile.am:
+	* icon-themes/Neu/48x48/mimetypes/Makefile.am:
+	* icon-themes/Neu/48x48/places/Makefile.am:
+	* icon-themes/Neu/48x48/status/Makefile.am:
+	* icon-themes/Neu/AUTHORS:
+	* icon-themes/Neu/COPYING:
+	* icon-themes/Neu/Makefile.am:
+	* icon-themes/Neu/README:
+	* icon-themes/Neu/index.theme.in:
+	* icon-themes/Neu/scalable/Makefile.am:
+	* icon-themes/Neu/scalable/actions/Makefile.am:
+	* icon-themes/Neu/scalable/actions/address-book-new.svg:
+	* icon-themes/Neu/scalable/actions/appointment-new.svg:
+	* icon-themes/Neu/scalable/actions/bookmark-new.svg:
+	* icon-themes/Neu/scalable/actions/contact-new.svg:
+	* icon-themes/Neu/scalable/actions/dialog-cancel.svg:
+	* icon-themes/Neu/scalable/actions/dialog-close.svg:
+	* icon-themes/Neu/scalable/actions/dialog-ok.svg:
+	* icon-themes/Neu/scalable/actions/document-new.svg:
+	* icon-themes/Neu/scalable/actions/document-open.svg:
+	* icon-themes/Neu/scalable/actions/document-print-preview.svg:
+	* icon-themes/Neu/scalable/actions/document-print.svg:
+	* icon-themes/Neu/scalable/actions/document-properties.svg:
+	* icon-themes/Neu/scalable/actions/document-save-as.svg:
+	* icon-themes/Neu/scalable/actions/document-save.svg:
+	* icon-themes/Neu/scalable/actions/edit-clear.svg:
+	* icon-themes/Neu/scalable/actions/edit-copy.svg:
+	* icon-themes/Neu/scalable/actions/edit-cut.svg:
+	* icon-themes/Neu/scalable/actions/edit-delete.svg:
+	* icon-themes/Neu/scalable/actions/edit-find-replace.svg:
+	* icon-themes/Neu/scalable/actions/edit-find.svg:
+	* icon-themes/Neu/scalable/actions/edit-paste.svg:
+	* icon-themes/Neu/scalable/actions/edit-redo.svg:
+	* icon-themes/Neu/scalable/actions/edit-select-all.svg:
+	* icon-themes/Neu/scalable/actions/edit-undo.svg:
+	* icon-themes/Neu/scalable/actions/folder-new.svg:
+	* icon-themes/Neu/scalable/actions/format-indent-less.svg:
+	* icon-themes/Neu/scalable/actions/format-indent-more.svg:
+	* icon-themes/Neu/scalable/actions/format-justify-center.svg:
+	* icon-themes/Neu/scalable/actions/format-justify-fill.svg:
+	* icon-themes/Neu/scalable/actions/format-justify-left.svg:
+	* icon-themes/Neu/scalable/actions/format-justify-right.svg:
+	* icon-themes/Neu/scalable/actions/format-text-bold.svg:
+	* icon-themes/Neu/scalable/actions/format-text-italic.svg:
+	* icon-themes/Neu/scalable/actions/format-text-underline.svg:
+	* icon-themes/Neu/scalable/actions/go-bottom.svg:
+	* icon-themes/Neu/scalable/actions/go-down.svg:
+	* icon-themes/Neu/scalable/actions/go-first.svg:
+	* icon-themes/Neu/scalable/actions/go-home.svg:
+	* icon-themes/Neu/scalable/actions/go-jump.svg:
+	* icon-themes/Neu/scalable/actions/go-last.svg:
+	* icon-themes/Neu/scalable/actions/go-next.svg:
+	* icon-themes/Neu/scalable/actions/go-previous.svg:
+	* icon-themes/Neu/scalable/actions/go-top.svg:
+	* icon-themes/Neu/scalable/actions/go-up.svg:
+	* icon-themes/Neu/scalable/actions/help-about.svg:
+	* icon-themes/Neu/scalable/actions/list-add.svg:
+	* icon-themes/Neu/scalable/actions/list-remove.svg:
+	* icon-themes/Neu/scalable/actions/mail-forward.svg:
+	* icon-themes/Neu/scalable/actions/mail-message-new.svg:
+	* icon-themes/Neu/scalable/actions/mail-reply-all.svg:
+	* icon-themes/Neu/scalable/actions/mail-reply-sender.svg:
+	* icon-themes/Neu/scalable/actions/mail-send-receive.svg:
+	* icon-themes/Neu/scalable/actions/process-stop.svg:
+	* icon-themes/Neu/scalable/actions/system-lock-screen.svg:
+	* icon-themes/Neu/scalable/actions/system-log-out.svg:
+	* icon-themes/Neu/scalable/actions/system-search.svg:
+	* icon-themes/Neu/scalable/actions/system-shutdown.svg:
+	* icon-themes/Neu/scalable/actions/view-refresh.svg:
+	* icon-themes/Neu/scalable/actions/window-new.svg:
+	* icon-themes/Neu/scalable/apps/Makefile.am:
+	* icon-themes/Neu/scalable/apps/accessories-archiver.svg:
+	* icon-themes/Neu/scalable/apps/accessories-character-map.svg:
+	* icon-themes/Neu/scalable/apps/accessories-text-editor.svg:
+	* icon-themes/Neu/scalable/apps/epiphany-bookmarks.svg:
+	* icon-themes/Neu/scalable/apps/evolution.svg:
+	* icon-themes/Neu/scalable/apps/gaim.svg:
+	* icon-themes/Neu/scalable/apps/gimp.svg:
+	* icon-themes/Neu/scalable/apps/graphics-image-editor.svg:
+	* icon-themes/Neu/scalable/apps/graphics-image-viewer.svg:
+	* icon-themes/Neu/scalable/apps/graphics-svg-editor.svg:
+	* icon-themes/Neu/scalable/apps/help-browser.svg:
+	* icon-themes/Neu/scalable/apps/internet-ftp-client.svg:
+	* icon-themes/Neu/scalable/apps/internet-group-chat.svg:
+	* icon-themes/Neu/scalable/apps/internet-mail.svg:
+	* icon-themes/Neu/scalable/apps/internet-web-browser.svg:
+	* icon-themes/Neu/scalable/apps/multimedia-volume-control.svg:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-accessibility.s
+	vg:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-assistive-techn
+	ology.svg:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-font.svg:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-remote-desktop.
+	svg:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-screensaver.svg
+	:
+	* icon-themes/Neu/scalable/apps/preferences-desktop-wallpaper.svg:
+	* icon-themes/Neu/scalable/apps/preferences-system-network-proxy.sv
+	g:
+	* icon-themes/Neu/scalable/apps/preferences-system-session.svg:
+	* icon-themes/Neu/scalable/apps/preferences-system-windows.svg:
+	* icon-themes/Neu/scalable/apps/preferences-user-information.svg:
+	* icon-themes/Neu/scalable/apps/sound-juicer.svg:
+	* icon-themes/Neu/scalable/apps/system-file-manager.svg:
+	* icon-themes/Neu/scalable/apps/system-installer.svg:
+	* icon-themes/Neu/scalable/apps/system-lock-screen.svg:
+	* icon-themes/Neu/scalable/apps/system-software-update.svg:
+	* icon-themes/Neu/scalable/apps/system-users.svg:
+	* icon-themes/Neu/scalable/apps/utilities-system-monitor.svg:
+	* icon-themes/Neu/scalable/apps/utilities-terminal.svg:
+	* icon-themes/Neu/scalable/categories/Makefile.am:
+	* icon-themes/Neu/scalable/categories/applications-accessories.svg:
+	* icon-themes/Neu/scalable/categories/applications-development.svg:
+	* icon-themes/Neu/scalable/categories/applications-games.svg:
+	* icon-themes/Neu/scalable/categories/applications-graphics.svg:
+	* icon-themes/Neu/scalable/categories/applications-internet.svg:
+	* icon-themes/Neu/scalable/categories/applications-multimedia.svg:
+	* icon-themes/Neu/scalable/categories/applications-office.svg:
+	* icon-themes/Neu/scalable/categories/applications-other.svg:
+	* icon-themes/Neu/scalable/categories/applications-system.svg:
+	* icon-themes/Neu/scalable/categories/preferences-desktop-periphera
+	ls.svg:
+	* icon-themes/Neu/scalable/categories/preferences-desktop.svg:
+	* icon-themes/Neu/scalable/categories/preferences-system.svg:
+	* icon-themes/Neu/scalable/devices/Makefile.am:
+	* icon-themes/Neu/scalable/devices/battery.svg:
+	* icon-themes/Neu/scalable/devices/computer.svg:
+	* icon-themes/Neu/scalable/devices/drive-cdrom.svg:
+	* icon-themes/Neu/scalable/devices/drive-harddisk.svg:
+	* icon-themes/Neu/scalable/devices/drive-removable-media.svg:
+	* icon-themes/Neu/scalable/devices/input-keyboard.svg:
+	* icon-themes/Neu/scalable/devices/input-mouse.svg:
+	* icon-themes/Neu/scalable/devices/media-cdrom-audio.svg:
+	* icon-themes/Neu/scalable/devices/media-cdrom.svg:
+	* icon-themes/Neu/scalable/devices/media-cdrw.svg:
+	* icon-themes/Neu/scalable/devices/media-dvd.svg:
+	* icon-themes/Neu/scalable/devices/media-dvdrw.svg:
+	* icon-themes/Neu/scalable/devices/media-floppy.svg:
+	* icon-themes/Neu/scalable/devices/printer.svg:
+	* icon-themes/Neu/scalable/devices/video-display.svg:
+	* icon-themes/Neu/scalable/emblems/Makefile.am:
+	* icon-themes/Neu/scalable/emblems/emblem-important.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-pictures.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-readonly.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-symbolic-link.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-system.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-unreadable.svg:
+	* icon-themes/Neu/scalable/emblems/emblem-web.svg:
+	* icon-themes/Neu/scalable/mimetypes/Makefile.am:
+	* icon-themes/Neu/scalable/mimetypes/application-certificate.svg:
+	* icon-themes/Neu/scalable/mimetypes/application-x-executable.svg:
+	* icon-themes/Neu/scalable/mimetypes/audio-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/empty.svg:
+	* icon-themes/Neu/scalable/mimetypes/font-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/image-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/misc-cd-image.svg:
+	* icon-themes/Neu/scalable/mimetypes/package-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/text-html.svg:
+	* icon-themes/Neu/scalable/mimetypes/text-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/text-x-script.svg:
+	* icon-themes/Neu/scalable/mimetypes/text-x-source.svg:
+	* icon-themes/Neu/scalable/mimetypes/video-x-generic.svg:
+	* icon-themes/Neu/scalable/mimetypes/x-office-address-book.svg:
+	* icon-themes/Neu/scalable/mimetypes/x-office-document.svg:
+	* icon-themes/Neu/scalable/mimetypes/x-office-spreadsheet.svg:
+	* icon-themes/Neu/scalable/places/Makefile.am:
+	* icon-themes/Neu/scalable/places/folder-remote.svg:
+	* icon-themes/Neu/scalable/places/folder-saved-search.svg:
+	* icon-themes/Neu/scalable/places/folder.svg:
+	* icon-themes/Neu/scalable/places/network-server.svg:
+	* icon-themes/Neu/scalable/places/network-workgroup.svg:
+	* icon-themes/Neu/scalable/places/start-here.svg:
+	* icon-themes/Neu/scalable/places/user-desktop.svg:
+	* icon-themes/Neu/scalable/places/user-home.svg:
+	* icon-themes/Neu/scalable/places/user-trash.svg:
+	* icon-themes/Neu/scalable/status/Makefile.am:
+	* icon-themes/Neu/scalable/status/audio-volume-high.svg:
+	* icon-themes/Neu/scalable/status/audio-volume-low.svg:
+	* icon-themes/Neu/scalable/status/audio-volume-medium.svg:
+	* icon-themes/Neu/scalable/status/audio-volume-muted.svg:
+	* icon-themes/Neu/scalable/status/audio-volume-zero.svg:
+	* icon-themes/Neu/scalable/status/battery-caution.svg:
+	* icon-themes/Neu/scalable/status/dialog-error.svg:
+	* icon-themes/Neu/scalable/status/dialog-information.svg:
+	* icon-themes/Neu/scalable/status/dialog-password.svg:
+	* icon-themes/Neu/scalable/status/dialog-question.svg:
+	* icon-themes/Neu/scalable/status/dialog-warning.svg:
+	* icon-themes/Neu/scalable/status/folder-drag-accept.svg:
+	* icon-themes/Neu/scalable/status/folder-open.svg:
+	* icon-themes/Neu/scalable/status/folder-visiting.svg:
+	* icon-themes/Neu/scalable/status/image-loading.svg:
+	* icon-themes/Neu/scalable/status/image-missing.svg:
+	* icon-themes/Neu/scalable/status/network-error.svg:
+	* icon-themes/Neu/scalable/status/network-idle.svg:
+	* icon-themes/Neu/scalable/status/network-offline.svg:
+	* icon-themes/Neu/scalable/status/network-receive.svg:
+	* icon-themes/Neu/scalable/status/network-transmit-receive.svg:
+	* icon-themes/Neu/scalable/status/network-transmit.svg:
+	* icon-themes/Neu/scalable/status/printer-error.svg:
+	* icon-themes/Neu/scalable/status/user-trash-full.svg:
+	* license_dsg:
+	* license_gpl:
+	* license_lgpl:
+	Added Neu icon theme :)
+	Bump release number to 2.19.5
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* configure.in:
+	* icon-themes/Gion/128x128/Makefile.am:
+	* icon-themes/Gion/128x128/actions/Makefile.am:
+	* icon-themes/Gion/128x128/apps/Makefile.am:
+	* icon-themes/Gion/128x128/categories/Makefile.am:
+	* icon-themes/Gion/128x128/devices/Makefile.am:
+	* icon-themes/Gion/128x128/mimetypes/Makefile.am:
+	* icon-themes/Gion/128x128/places/Makefile.am:
+	* icon-themes/Gion/128x128/status/Makefile.am:
+	* icon-themes/Gion/16x16/Makefile.am:
+	* icon-themes/Gion/16x16/actions/Makefile.am:
+	* icon-themes/Gion/16x16/apps/Makefile.am:
+	* icon-themes/Gion/16x16/mimetypes/Makefile.am:
+	* icon-themes/Gion/16x16/places/Makefile.am:
+	* icon-themes/Gion/22x22/Makefile.am:
+	* icon-themes/Gion/22x22/actions/Makefile.am:
+	* icon-themes/Gion/22x22/apps/Makefile.am:
+	* icon-themes/Gion/22x22/devices/Makefile.am:
+	* icon-themes/Gion/22x22/mimetypes/Makefile.am:
+	* icon-themes/Gion/22x22/places/Makefile.am:
+	* icon-themes/Gion/22x22/status/Makefile.am:
+	* icon-themes/Gion/24x24/Makefile.am:
+	* icon-themes/Gion/24x24/actions/Makefile.am:
+	* icon-themes/Gion/24x24/apps/Makefile.am:
+	* icon-themes/Gion/24x24/devices/Makefile.am:
+	* icon-themes/Gion/24x24/mimetypes/Makefile.am:
+	* icon-themes/Gion/24x24/places/Makefile.am:
+	* icon-themes/Gion/24x24/status/Makefile.am:
+	* icon-themes/Gion/48x48/Makefile.am:
+	* icon-themes/Gion/48x48/actions/Makefile.am:
+	* icon-themes/Gion/48x48/apps/Makefile.am:
+	* icon-themes/Gion/48x48/categories/Makefile.am:
+	* icon-themes/Gion/48x48/devices/Makefile.am:
+	* icon-themes/Gion/48x48/mimetypes/Makefile.am:
+	* icon-themes/Gion/48x48/places/Makefile.am:
+	* icon-themes/Gion/48x48/status/Makefile.am:
+	* icon-themes/Gion/AUTHORS:
+	* icon-themes/Gion/COPYING:
+	* icon-themes/Gion/Makefile.am:
+	* icon-themes/Gion/README:
+	* icon-themes/Gion/index.theme:
+	* icon-themes/Gion/scalable/Makefile.am:
+	* icon-themes/Gion/scalable/actions/Makefile.am:
+	* icon-themes/Gion/scalable/actions/bookmark-new.svg:
+	* icon-themes/Gion/scalable/actions/document-open.svg:
+	* icon-themes/Gion/scalable/actions/go-down.svg:
+	* icon-themes/Gion/scalable/actions/go-next.svg:
+	* icon-themes/Gion/scalable/actions/go-previous.svg:
+	* icon-themes/Gion/scalable/actions/go-up.svg:
+	* icon-themes/Gion/scalable/actions/process-stop.svg:
+	* icon-themes/Gion/scalable/actions/view-refresh.svg:
+	* icon-themes/Gion/scalable/apps/Makefile.am:
+	* icon-themes/Gion/scalable/apps/accessories-archiver.svg:
+	* icon-themes/Gion/scalable/apps/evolution.svg:
+	* icon-themes/Gion/scalable/apps/internet-mail.svg:
+	* icon-themes/Gion/scalable/apps/internet-web-browser.svg:
+	* icon-themes/Gion/scalable/apps/music-player.svg:
+	* icon-themes/Gion/scalable/apps/utilities-terminal.svg:
+	* icon-themes/Gion/scalable/categories/Makefile.am:
+	* icon-themes/Gion/scalable/categories/applications-internet.svg:
+	* icon-themes/Gion/scalable/devices/Makefile.am:
+	* icon-themes/Gion/scalable/devices/computer.svg:
+	* icon-themes/Gion/scalable/devices/drive-harddisk.svg:
+	* icon-themes/Gion/scalable/devices/drive-removable-media.svg:
+	* icon-themes/Gion/scalable/devices/media-cdrom-audio.svg:
+	* icon-themes/Gion/scalable/devices/media-cdrom.svg:
+	* icon-themes/Gion/scalable/devices/media-cdrw.svg:
+	* icon-themes/Gion/scalable/devices/media-dvd.svg:
+	* icon-themes/Gion/scalable/devices/media-dvdrw.svg:
+	* icon-themes/Gion/scalable/mimetypes/Makefile.am:
+	* icon-themes/Gion/scalable/mimetypes/application-certificate.svg:
+	* icon-themes/Gion/scalable/mimetypes/audio-x-generic.svg:
+	* icon-themes/Gion/scalable/mimetypes/image-x-generic.svg:
+	* icon-themes/Gion/scalable/mimetypes/package-x-generic.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-html.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-authors.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-changelog.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-copying.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-generic.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-install.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-readme.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-script.svg:
+	* icon-themes/Gion/scalable/mimetypes/text-x-source.svg:
+	* icon-themes/Gion/scalable/mimetypes/x-office-document.svg:
+	* icon-themes/Gion/scalable/mimetypes/x-office-spreadsheet.svg:
+	* icon-themes/Gion/scalable/places/Makefile.am:
+	* icon-themes/Gion/scalable/places/folder-remote.svg:
+	* icon-themes/Gion/scalable/places/folder-saved-search.svg:
+	* icon-themes/Gion/scalable/places/folder.svg:
+	* icon-themes/Gion/scalable/places/user-desktop.svg:
+	* icon-themes/Gion/scalable/places/user-home.svg:
+	* icon-themes/Gion/scalable/places/user-trash.svg:
+	* icon-themes/Gion/scalable/status/Makefile.am:
+	* icon-themes/Gion/scalable/status/folder-drag-accept.svg:
+	* icon-themes/Gion/scalable/status/folder-open.svg:
+	* icon-themes/Gion/scalable/status/folder-visiting.svg:
+	* icon-themes/Gion/scalable/status/user-trash-full.svg:
+	* icon-themes/Makefile.am:
+	Added Gion icon theme :)
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* gtk-themes/Makefile.am:
+	Added a dummy gtk-themes directory with its Makefile.am
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* icon-themes/Makefile.am:
+	Added the Makefile.am
+	
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* Foxtrot/16x16/Makefile.am:
+	* Foxtrot/16x16/actions/Makefile.am:
+	* Foxtrot/16x16/places/Makefile.am:
+	* Foxtrot/22x22/Makefile.am:
+	* Foxtrot/22x22/actions/Makefile.am:
+	* Foxtrot/22x22/places/Makefile.am:
+	* Foxtrot/22x22/status/Makefile.am:
+	* Foxtrot/24x24/Makefile.am:
+	* Foxtrot/24x24/actions/Makefile.am:
+	* Foxtrot/24x24/places/Makefile.am:
+	* Foxtrot/Makefile.am:
+	* Foxtrot/README:
+	* Foxtrot/index.theme:
+	* Foxtrot/index.theme.in:
+	* Foxtrot/scalable/Makefile.am:
+	* Foxtrot/scalable/actions/Makefile.am:
+	* Foxtrot/scalable/actions/document-open.svg:
+	* Foxtrot/scalable/actions/folder-new.svg:
+	* Foxtrot/scalable/actions/go-bottom.svg:
+	* Foxtrot/scalable/actions/go-down.svg:
+	* Foxtrot/scalable/actions/go-first.svg:
+	* Foxtrot/scalable/actions/go-home.svg:
+	* Foxtrot/scalable/actions/go-last.svg:
+	* Foxtrot/scalable/actions/go-next.svg:
+	* Foxtrot/scalable/actions/go-previous.svg:
+	* Foxtrot/scalable/actions/go-top.svg:
+	* Foxtrot/scalable/actions/go-up.svg:
+	* Foxtrot/scalable/actions/list-add.svg:
+	* Foxtrot/scalable/actions/list-remove.svg:
+	* Foxtrot/scalable/actions/system-search.svg:
+	* Foxtrot/scalable/actions/view-refresh.svg:
+	* Foxtrot/scalable/categories/Makefile.am:
+	* Foxtrot/scalable/categories/preferences-system.svg:
+	* Foxtrot/scalable/devices/Makefile.am:
+	* Foxtrot/scalable/devices/computer.svg:
+	* Foxtrot/scalable/devices/video-display.svg:
+	* Foxtrot/scalable/places/Makefile.am:
+	* Foxtrot/scalable/places/folder-remote.svg:
+	* Foxtrot/scalable/places/folder.svg:
+	* Foxtrot/scalable/places/gnome-fs-desktop.svg:
+	* Foxtrot/scalable/places/gnome-fs-trash-full.svg:
+	* Foxtrot/scalable/places/network-workgroup.svg:
+	* Foxtrot/scalable/places/user-desktop.svg:
+	* Foxtrot/scalable/places/user-home-folder.svg:
+	* Foxtrot/scalable/places/user-home.svg:
+	* Foxtrot/scalable/places/user-trash-full.svg:
+	* Foxtrot/scalable/places/user-trash.svg:
+	* Foxtrot/scalable/places/x-directory-normal.svg:
+	* Foxtrot/scalable/places/x-directory-remote.svg:
+	* Foxtrot/scalable/status/Makefile.am:
+	* Foxtrot/scalable/status/folder-accept.svg:
+	* Foxtrot/scalable/status/folder-drag-accept.svg:
+	* Foxtrot/scalable/status/folder-open.svg:
+	* Foxtrot/scalable/status/gnome-fs-accept.svg:
+	* Foxtrot/scalable/status/user-trash-full.svg:
+	* Foxtrot/scalable/status/x-directory-drag-accept.svg:
+	* Foxtrot/scalable/status/x-directory-normal-accept.svg:
+	* Foxtrot/scalable/status/x-directory-normal-open.svg:
+	* Makefile.am:
+	* configure.in:
+	* icon-themes/Foxtrot/index.theme:
+	Moved to icon-themes
+
+2007-07-30  Andrea Cimitan  <andrea.cimitan@gmail.com>
+
+	* Foxtrot/16x16/actions/Makefile.am:
+	* Foxtrot/16x16/places/Makefile.am:
+	* Foxtrot/22x22/actions/Makefile.am:
+	* Foxtrot/22x22/places/Makefile.am:
+	* Foxtrot/22x22/status/Makefile.am:
+	* Foxtrot/24x24/actions/Makefile.am:
+	* Foxtrot/24x24/places/Makefile.am:
+	* Foxtrot/Makefile.am:
+	* Foxtrot/scalable/actions/Makefile.am:
+	* Foxtrot/scalable/categories/Makefile.am:
+	* Foxtrot/scalable/devices/Makefile.am:
+	* Foxtrot/scalable/places/Makefile.am:
+	* Foxtrot/scalable/status/Makefile.am:
+	* NEWS:
+	* configure.in:
+	Foxtrot icon theme.  :)
+
+2007-07-30  Andrea Cimitan <andrea.cimitan@gmail.com>
+
+	* configure.in:
+	start with a new version 0.10.0
+
+2007-02-24  Matic Zgur  <mr.zgur@gmail.com>
+
+	* configure.in: Added 'sl' to ALL_LINGUAS.
+
+2006-12-15  Pema Geyleg  <pgeyleg@gmail.com>
+
+	* configure.in: Added 'dz' in ALL_LINGUAS
+
+2006-04-17  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Remove obsolete entry for no_NO
+	* po/no.po: And the translation.
+
+2006-01-24  Clytie Siddall <clytie@riverland.net.au>
+
+	* configure.in	Added vi in ALL_LINGUAS line.
+	
+	2005-12-06 Christian Schaller <uraeus@gnome.org>
+
+	* Added epiphany new-tab icon to Nuvola
+	* Added gnome-fs-client to Amaranth
+	* Moved mixer animation from Nuvola to Lush
+	* Added new mixer animation based on icons from David
+	* Added gtk-close to Nuvola
+	* Tried sizing down the Gorilla gtk-close icon to make 
+	  it fit gedit tabs
+
+2005-12-06  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Added Norwegian bokmål to ALL_LINGUAS.
+
+2005-12-06  Christian Schaller <uraeus@gnome.org>
+
+	* Switch Gorilla to icon naming for stock icons
+	* Add more icons to Nuvola from David Vignoni
+	* Add volume icons from Josselin Mouette
+	* Fix executable name in Nuvola
+	* Update version to 0.9.0
+	* Update Amaranth and Wasp for better coverage of device icons
+
+2005-09-01  Pawan Chitrakar  <pchitrakar@gmail.com>
+
+	* configure.in: Added ne in ALL_LINGUAS
+
+2005-08-13  Ilkka Tuohela  <hile@iki.fi>
+
+	* configure.in: Added "fi" to ALL_LINGUAS
+	
+2005-08-09  Maxim Dziumanenko <mvd@mylinux.ua>
+
+	* configure.in: Added 'uk' to ALL_LINGUAS.
+
+2005-07-11  Christian Schaller <uraeus@gnome.org>
+
+	* Nuvola: rename stock icons to follow icon naming spec
+	
+2005-06-10  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
+
+	* configure.in: Added 'gl' to ALL_LINGUAS.
+
+2005-04-05  Alexander Shopov  <ash@contact.bg>
+
+	* configure.in: Added "bg" (Bulgarian) to ALL_LINGUAS
+
+2005-04-01  Steve Murphy  <murf@e-tools.com>
+
+	* configure.in: Added "rw" to ALL_LINGUAS.
+
+2005-04-23 Christian Schaller <uraeus@gnome.org>
+
+	* add a host of new icons for Nuvola from David
+
+2005-02-11 Christian Schaller <uraeu@gnome.org>
+
+	* update spec file for a non-engines world
+	* make 0.8.1 release
+
+2004-12-22  Thomas Wood  <thos@gnome.org>
+
+	* Makefile.am:
+	* configure.in:
+	Depend on new gtk-engines
+
+	* Industrial/: Remove Industrial engine as it is in gtk-engines now
+	* Smooth/.cvsignore: Removed (no longer needed)
+
+2004-11-27  Christian Schaller <uraeus@gnome.org>
+
+	* Fix make-dist, we now depend on Automake 1.9 
+	  (think we are first in GNOME CVS for this :)
+
+2004-11-20  Christian Schaller <uraeus@gnome.org>
+
+	* Remove Smooth engine as it is in gnome-themes now
+
+2004-09-27  Jakub Steiner <jimmac@ximian.com>
+	
+	* Industrial/industrial_style.c:
+	* Industrial/gtk-2.0/gtkrc.in: sync with clahey
+	
+2004-09-02  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
+
+	* configure.in: Added Russian to ALL_LINGUAS.
+
+2004-08-31  Christian Schaller <Uraeus@gnome.org>
+
+	* configure.in: Update version to 0.8
+
+2004-08-11  Adam Weinberger  <adamw@gnome.org>
+
+	* configure.in: Added en_CA to ALL_LINGUAS.
+
+2004-07-28  Gustavo Maciel Dias Vieira  <gustavo@sagui.org>
+
+	* configure.in: Added pt_BR to ALL_LINGUAS.
+
+2004-06-18  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-fs-directory-visiting: the open folder state
+
+2004-06-17  Christian Schaller <christian@fluendo.com>
+
+	* Added python mimetype icon to Lush from Nicolas Évrard
+
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-fs-executable -> gnome-mime-x-application-executable:
+	  symlinking accross directories seems to be a pain. However
+	  symlinking to nonexistant files hardly the solution ;)
+	
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/filesystems/Makefile.am:
+	  fix makefile after Christian ;)
+
+2004-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg: remove the duplicate
+
+2004-06-09  Christian Schaller <christian@fluendo.com>
+
+	* fix emblem placements
+	* fix makefiles after Jakub :)
+	* Add gnome-fs-client to Gorilla
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* stock_dialog_warning.svg: Do not embed font. Fixes bug #140719
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. devices/*: proper scaling
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. devices/gnome-fs-floppy.svg: 3D should suit it
+
+2004-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* (Gorilla) .. apps/Makefile.am:
+	* (Gorilla) .. filesystems/Makefile.am:
+	* (Gorilla) .. mimetypes/Makefile.am: symlink fixes
+
+2004-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg
+	* gnome-terminal.svg: scale fixups
+
+	* accessibility-directory.svg
+	* gnome-games.svg: new panel icons
+
+2004-05-05 Christian Schaller <Uraeus@gnome.org>
+
+	* Fixing small issues in Nuvola
+	* Adding OpenOffice icons to Nuvola apps directory
+	* Give printermanager a Nuvola icon
+	* Add sodipodi/inkscape icon to theme
+	* Fixed translations
+
+2004-05-03 Christian Schaller <Uraeus@gnome.org>
+
+	* Tons of bugfixes from Josselin Mouette <joss@debian.org>
+	* Firefox icon from Tobias Jakobs
+	* Suse symlinks from James Ogley
+	* Disable translations, they currently break the build
+
+2004-04-19 Christian Schaller <Uraeus@gnome.org>
+	
+	* Released 0.7
+
+2004-04-18 David Vignoni <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/stock/: Updated 15 icons.
+	* Nuvola/icons/scalable/stock/: Added 1 icons.
+	
+
+2004-04-10  Gareth Owen  <gowen72@yahoo.com>
+
+	* configure.in: Added en_GB to ALL_LINGUAS
+
+2004-03-31 Christian Schaller <Uraues@gnome.org>
+
+	* Added two more icons to Amaranth
+
+2004-03-30 Christian Schaller <Uraeus@gnome.org>
+
+	* Added 5 icons to Amaranth
+	* Added new Nuvola icons to Makefiles
+
+2004-03-30 David Vignoni  <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/apps/: Updated 16 icons.
+	* Nuvola/icons/scalable/apps/: Added 3 icons.
+	* Nuvola/icons/scalable/devices/: Updated 10 icons.
+	* Nuvola/icons/scalable/devices/: Added 1 icon.
+	* Nuvola/icons/scalable/emblems/: Updated 6 icons.
+	* Nuvola/icons/scalable/filesystems/: Updated 19 icons.
+	* Nuvola/icons/scalable/mimetypes/: Updated 5 icons.
+	* Nuvola/icons/scalable/mimetypes/: Added 1 icon.	
+
+2004-03-29 David Vignoni <davigno@cvs.gnome.org>
+
+	* Nuvola/icons/scalable/mimetypes/: Updated 30 icons.
+	* Nuvola/icons/scalable/mimetypes/: Added 22 icons.
+
+2004-03-27  Christian Schaller <Uraeus@gnome.org>
+
+	* Add patch to Industrial from Morten Welinder
+	  Fixes issue for Gnumeric and probably others
+
+2004-03-21  Christian Schaller <Uraeus@gnome.org>
+
+	* Some small changes to Nuvola to make it more 2.6 friendly
+	* New Amaranth trashcan from Yishay Vadai
+
+2004-03-06  Laurent Dhima  <laurenti@alblinux.net>
+
+	* configure.in: Added "sq" to ALL_LINGUAS.
+ 
+2004-03-04  Guntupalli Karunakar  <karunakar@freedomink.org>
+
+        * configure.in: Added "pa" (Punjabi) to ALL_LINGUAS.
+
+2004-02-27  Remi Cohen-Scali  <rcoscali@cvs.gnome.org>
+
+	* configure.in: Added an 's' to GETTEXT_PACKAGE
+	in order to obtain gnome-themes-extras (instead
+	of gnome-themes-extra). 
+	fix Bug# 135563
+
+2004-02-09  Robert Sedak  <robert.sedak@sk.htnet.hr>
+
+        * configure.in: Added "hr" (Croatian) to ALL_LINGUAS.
+
+2004-02-03  Žygimantas Beručka  <uid0@tuxfamily.org>
+
+	* configure.in: Added "lt" (Lithuanian) to ALL_LINGUAS.
+
+2004-01-29  Christian Schaller <Uraeus@gnome.org>
+
+	* Updated smooth to compile with Gtk2.3
+	* New improved Wasp logout icon from Caleb Moore
+
+2004-01-11  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* configure.in: Added "it" (Italian) to ALL_LINGUAS.
+
+2004-11-01 Christian Schaller <Uraeus@gnome.org>
+
+	* Change Amaranth Floppy and cdrom icons
+	* Add new webbrowser icon to Wasp
+	* Add new desktop emblem to Wasp
+
+2004-11-01 Christian Schaller <Uraeus@gnome.org>
+
+	* Updated Lush/Galaxy theme to latest version
+	* New Wasp theme without pixmaps
+	* Adding gaim Wasp icons
+	* Fixed bug 116180 	 (gorilla iconrc)
+	* Fixed bug 109746 (Galaxy metacity bug)
+	* Fixed bug 130176 (Missing Amaranth icons)
+	* Fixed bug 130301 (Bad symlinks)
+	* Make 0.6 release
+
+2003-12-16 Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Added Slovak translation.
+
+2003-12-14 Christian Schaller <Uraeus@gnome.org>
+
+	* Amaranth fix from Andrew Johnson
+
+2003-12-07 Christian Schaller <Uraeus@gnome.org>
+
+ 	* Added goto first and last to Nuvola
+	* Added gaim send-message icon to Gaim
+
+2003-12-06 Christian Schaller <Uraeus@gnome.org>
+ 
+	* Made 0.5 release
+
+2003-12-05 Christian Schaller <Uraeus@gnome.org>
+
+	* New icons from David Vignoni for Nuvola, RH menu now complete
+
+2003-12-01 Christian Schaller <Uraeus@gnome.org>
+
+	* First day in the calendar, a bunch of new Nuvola icons!
+
+2003-11-25 Christian Schaller <Uraeus@gnome.org>
+
+	* Add many new icons to Wasp
+
+2003-11-16 Christian Schaller <Uraeus@gnome.org>
+
+	* Update Smooth engine
+	* Update version number
+	* Replace Nuvola Metacity theme
+
+2003-10-12  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* Amaranth/icons/scalable/mimetypes/Makefile.am:
+	  Add DESTDIR variable.
+
+2003-09-30 Christian Schaller <Uraeus@gnome.org>
+
+	* Added more icons to Amaranth
+	* Undo my premature icon name changes
+	* Try and get Wasp and Nuvola to work a little better
+	  with the Red Hat beta
+
+2003-09-26  Christian Schaller <Uraeus@gnome.org>
+
+	* Added more Amaranth icons, more symlinks
+	* Updates to Smooth engine files
+
+2003-09-25  Christian Schaller <Uraeus@gnome.org>
+
+	* Added new icons to Amaranth, started changing names for GNOME 2.4
+
+2003-09-24  Jakub Steiner <jimmac@ximian.com>
+
+	* COPYING: I just noticed gorilla was mentioned as LGPL for some
+	  odd reason.
+	
+2003-09-01  Metin Amiroff  <metin@karegen.com>
+
+	configure.in: Added "az" in ALL_LINGUAS.
+
+2003-08-30  Wang Jian  <lark@linux.net.cn>
+
+	* configure.in: Added "zh_CN" to ALL_LINGUAS.
+
+2003-08-26  Changwoo Ryu  <cwryu@debian.org>
+
+	* configure.in: Added "ko" to ALL_LINGUAS.
+
+2003-08-25  Ole Laursen  <olau@hardworking.dk>
+
+	* configure.in: Added "da" (Danish) to ALL_LINGUAS.
+
+2003-08-22 Christian Schaller <Uraeus@gnome.org>
+ 
+	* Added Amaranth to translation list
+	* Updated Smooth engine to latest from Andrew
+	* Fixed Wasp window managed maximize button, it is not aligned with
+	  close button
+	* Fix typo in Jakub's changelog entry ;)
+	* Add gtkrc patch from Andrew to Nuvola
+
+2003-08-22  Jakub Steiner <jimmac@ximian.com>
+
+	* configure.in
+	* Gorilla/icons/Makefile.am
+	* Gorilla/icons/index.theme.in
+	* Gorilla/icons/24x24/Makefile.am
+	* Gorilla/icons/24x24/apps/Makefile.am
+	* Gorilla/icons/24x24/apps/gnome-spinner-rest.png
+	* Gorilla/icons/24x24/apps/gnome-spinner.png: spinner for Gorilla
+	  (I'll investigate the possibility to make it svg as well)
+
+2003-08-20  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Added "no" to ALL_LINGUAS.
+
+2003-08-14 Christian Schaller <Uraeus@gnome.org>
+
+	* Misc bug fixes
+	* Most important being fixin of many of the emblem names
+	  to make them more consistant with the base theme
+	* tag for 0.3 release
+
+2003-08-13 Christian Schaller <Uraeus@gnome.org>
+	
+	* Added Industrial theme engine since Gorilla needs it
+	* This makes g-t-e conflict with ximian artwork, hopefully
+	  Ximian will start to ship Industrial as a standalone package so
+	  I can obsolete that
+
+2003-08-12 Christian Schaller <Uraeus@gnome.org>
+
+	* Adding preview of final Amaranth Metacity theme, looks pretty ok
+	  but fails to use GTK+ colours and has pixmap instead of SVG buttons
+
+2003-08-04 Christian Schaller <Uraeus@gnome.org>
+
+	* Moved Smooth into separate subdir
+	* Patch Smooth to latest version
+	* Added new Amaranth theme from ajgenius
+	* Fixed old commented out Gorilla app symlink
+	* Add new stock icons to Lush
+	* Add new stock icons to Nuvola
+	* Added a few app icons for Amaranth
+	* Added fake Nuvola gtk-1 from James Ogley
+
+2003-07-31 Christian Schaller <Uraeus@gnome.org>
+
+	* Added lots of new Amaranth icons from Michael Doches
+	* Added Gorilla inheritance fix from James Ogley
+	* Added .mo files to SPEC file fix from Håvard Wigtil
+
+2003-07-28  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml: temporarily revert
+	  Uraeus' maximized state, since it draws a nasty light border.
+	  I'll see about a proper maximized state in future.
+
+2003-07-27 Christian Schaller <uraeus@gnome.org>
+	
+	* Update Smooth engine to use latest from smooth CVS
+	* Fix a couple of Nuvola icons
+	* Update Nuvola license to LGPL (thanks David!)
+	* Remove Galaxy and BlueSphere from package
+
+2003-07-23 Christian Schaller <Uraeus@gnome.org>
+
+	* Switch mazimize and restore icons in Wasp, they where wrong now
+
+2003-07-18  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* */*/*/*/Makefile.am: Add DESTDIR variable.
+
+2003-07-17  Christian Schaller <Uraeus@gnome.org>
+
+	* Re-integrate Amaranth into build
+	* Add more stock icons to Amaranth
+	* Change Lush description, sorry translators, but the
+	  current one sucked
+
+2003-07-16  Christian Schaller <Uraeus@gnome.org>
+	
+	* Add icons to Wasp
+	* Remove some icons commited with wrong name under Wasp
+	* Add a few emblems to Wasp
+
+2003-07-17  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.in: Added Japanese  "ja" into ALL_LINGUAS.
+
+2003-07-15  Danilo Šegan  <dsegan@gmx.net>
+
+	* configure.in: Added "sr" and "sr@Latn" to ALL_LINGUAS.
+
+2003-07-15  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml: add button prelight
+	  states
+
+2003-07-14 Christian Schaller <Uraeus@gnome.org>
+	
+	* Change version to 0.3
+	* Add new and updated Nuvola icons from David Vignoni
+	* Fix many BlueSphere icons to use userspaceonuse instead 
+	  of objectboundingbox
+
+2003-07-13 Christian Schaller <Uraeus@gnome.org>
+
+	* Added updated and new icons to Nuvola from David
+	* Added symlinks to Nuvola for better coverage
+	* Added file manager, favorites, my-computer icon to Wasp
+	* Cleaned up symlink scripts in Makefiles
+	* Commented out Amaranth as it will not be part of 0.2
+	
+2003-07-11 Christian Schaller <Uraeus@gnome.org>
+
+	* Added Amaranth theme (alpha version)
+	* Add apps directory to Lush theme
+	* Add extra icon to Wasp theme
+
+2003-07-10 Christian Schaller <Uraeus@gnome.org>
+
+	* Added almost complete GNOME menu set to Nuvola
+	* Added abiword mime type to Lush and Nuvola
+	* Added Wasp multimedia menu icon
+	* Cleaned up Wasp apps menu icons somewhat
+
+2003-07-08 Christian Schaller <Uraeus@gnome.org>
+
+	* Removed mid-stop point info from most icons, 
+	  should reduce spew considerably, fix by
+	  Adam Hooper
+	* Traditional Chinese translation by baddog
+
+2003-07-07 Christian Schaller <Uraeus@gnome.org>
+	
+	* Add print-preview icon to Nuvola
+
+2003-07-02  Artur Flinta  <aflinta@cvs.gnome.org>
+
+	* configure.in: Added pl to ALL_LINGUAS
+
+2003-06-18  Fatih Demir <kabalak@gtranslator.org>
+
+	* configure.in: Added Turkish ("tr") to the languages' list.
+
+2003-06-18  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* configure.in: Added fr to ALL_LINGUAS.
+
+2003-06-13  Gil "Dolfin" Osher <dolfin@rpg.org.il>
+
+	* configure.in: Added he to ALL_LINGUAS.
+
+2003-06-11  Christian Schaller <Uraeus@gnome.org>
+
+	* Add new Evolution and printer icons to Nuvola
+	* Ugly kludge fix to Wasp wm theme
+	* Re-instate the symlinks for Gorilla
+	* Fix so Nuvola gnome-logo pops up in menu
+	* Removed Galaxy from build, nothing uses it anymore
+
+2003-06-10  Christian Schaller <Uraeus@gnome.org>
+
+	* Add many new stock and app icons to Wasp
+	* Change look of handle in Nuvola
+	* Add new camera emblem and new gnome logo to Nuvola
+	* Add .cvsignore files where missing
+	* A few other small tweaks I don't remember
+	
+2003-06-10  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk-2.0/gtkrc: tweak a little to reflect engine change
+
+2003-06-09 Christian Schaller <Uraeus@gnome.org>
+
+	* Changed wm theme for Nuvola to a hybrid of old one and Gorilla
+	* Cleaned up Lush wm somewhat
+	* Other small fixes
+
+2003-06-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk/gtkrc:
+	* Gorilla/gtk-2.0/gtkrc: use industrial gtk engine
+	
+2003-06-08 Christian Schaller <Uraeus@gnome.org>
+	
+	* Added more stock icons to Nuvola
+	* Added one more mimetype icon to Wasp
+
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/gtk-2.0/*.svg:
+	* Gorilla/icons/stock/*.svg: move to the icon theme
+
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/Makefile.am:
+	* Gorilla/Makefile.am:
+	* configure.in: automagick for metacity theme
+	
+2003-06-08  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/metacity-1/metacity-theme-1.xml
+	* Gorilla/metacity-1/wm-close.svg
+	* Gorilla/metacity-1/wm-max.svg
+	* Gorilla/metacity-1/wm-menu.svg
+	* Gorilla/metacity-1/wm-min.svg
+	* Gorilla/metacity-1/wm-restore.svg: adding Gorilla metacity theme. gotta 
+     add autotools files
+
+2003-06-05 Christian Schaller <Uraeus@gnome.org>
+	* Commited many updated icons from David Vignoni to Nuvola
+
+2003-06-05 Christian Schaller <Uraeus@gnome.org>
+	* Commited a couple of improved icons for Nuvola
+	* Commited some fixes to Lush metacity theme, still needin love
+
+2003-05-26  Pablo Gonzalo del Campo  <pablodc@bigfoot.com>
+
+        * configure.in: Added Spanish (es) to ALL_LINGUAS.
+
+2003-05-24  Duarte Loreto <happyguy_pt@hotmail.com>
+
+        * configure.in: Added Portuguese (pt) to ALL_LINGUAS.
+
+2003-05-16 Christian Schaller <Uraeus@gnome.org>
+	* Add stock icons to Lush theme
+	* Add Smooth-Lush gtk theme
+	* Add Lush-Galaxy metacity theme (alpha version)
+	* Add license file for Wasp icons
+	* Some minor bugfixes
+
+2003-05-14  Jakub Steiner <jimmac@ximian.com>
+
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-readme.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-patch.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-sql.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-copying.svg:
+   * Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-sh.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kpresenter.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kword.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-kspread.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-killustrator.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.ms-powerpoint.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-troff-man.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-backup.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: more porting
+
+2003-05-12  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/emblems/emblem-urgent.svg:
+	* Gorilla/icons/scalable/devices/gnome-dev-rw.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-lyx.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-shared-library.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-abiword.svg:
+	* Gorilla/icons/scalable/devices/Makefile.am: more porting
+
+2003-05-10 Christian Schaller <Uraeus@gnome.org>
+	* Add Wasp theme
+	* Fix small buglet in one Nuvolla emblem
+	* Add m4 dir and m4 macro for getting datadir for iconrc files
+	* Fix iconrc to be dynamic for BlueSphere and Nuvolla also
+
+2003-05-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-audio-x-midi.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-deb.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-makefile.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-install.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-css.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	  more porting
+
+2003-05-09  Abel Cheung  <maddog@linux.org.hk>
+
+	* configure.in: Added "cs" "zh_TW" to ALL_LINGUAS.
+
+2003-05-09  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/apps/web-browser.svg:
+	* Gorilla/icons/scalable/apps/Makefile.am: add generic web
+	  browser icon
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-image-x-xcf.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-html.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-authors.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-text-x-java.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.ms-excel.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-x-gnucash.svg:
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.rn-realmedia.svg:
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	  more mimetype porting from older Gorilla
+
+	* Gorilla/icons/index.theme.in: make icons a little smaller
+	
+2003-05-07  Jordi Mallach  <jordi@sindominio.net>
+
+	* configure.in: Added "ca" to ALL_LINGUAS.
+
+2003-05-07  Christian Neumair  <chris@gnome-de.org>
+
+	* Nuvola/metacity-1/.cvsignore: Added.
+	* Galaxy/index.theme.in: Marked Name and Comment fields
+	for translation.
+	* Galaxy/index.theme: Removed.
+	* configure.in: Added "de" to ALL_LINGUAS.
+
+2003-05-07  Christian Rose  <menthos@menthos.com>
+
+	* configure.in: Added "sv" to ALL_LINGUAS.
+
+2003-05-03  Andrew Sobala  <aes@gnome.org>
+
+	* configure.in (AC_OUTPUT): stop duplicate creation of Nuvola/metacity-1/Makefile
+
+2003-05-01  Dennis Cranston <dennis_cranston at yahoo com>
+       * Galaxy/gtk-2.0/galaxy_theme_draw.c:  Prevent a division by zero crash.
+
+2003-04-29 Christian Schaller <uraeus@gnome.org>
+	* Added Nuvola metacity theme by Josselin Mouette
+	* Added some smaller SVG files for Nuvola by Adam Hooper 
+
+2003-05-01  Yanko Kaneti  <yaneti@declera.com>
+
+	* configure.in (AC_OUTPUT): create Nuvola/metacity-1/Makefile
+	* Makefile.am (NUVOLA_TAR_FILES): add the metacity wm theme files. 
+	* Nuvola/Makefile.am (SUBDIRS): actually use the metacity theme. 
+	* gnome-themes-estras.spec.in: use GTK_BINARY_VERSION
+
+2003-04-21  Alex Duggan  <aldug@gnome.org>
+
+	* TODO: Initial import
+	
+	* Makefile.am: s/${TAR}/tar to work around problem on rh9
+
+2003-04-18 Christian Schaller <uraues@gnome.org>
+	* Update Nuvola metatheme
+	* Adding Smooth Winther GTK theme to Nuvola
+	* Removed the use of Automake 1.4 as smooth need 1.6
+	* make tarballs don't work for me since ${TAR} gets translated into null
+	* the iconrc files includes fixed paths, they need to be made into iconrc.in files that get the path from the build, the iconrc files are in the BlueSphere/gtk-2.0 and Nuvola/gtk-2.0 dirs
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* README: update with instructions for making releases
+	and building tarballs
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+	
+	* .cvsignore:
+	add gnome-themes-extras.spec
+	
+	* BlueSphere/.cvsignore:
+	* BlueSphere/gtk-2.0/.cvsignore:
+	* BlueSphere/icons/.cvsignore:
+	* BlueSphere/icons/scalable/.cvsignore:
+	* BlueSphere/icons/scalable/stock/.cvsignore:
+	* BlueSphere/metacity-1/.cvsignore:
+	* Galaxy/.cvsignore:
+	* Galaxy/gtk-2.0/.cvsignore:
+	* Galaxy/metacity-1/.cvsignore:
+	* Lush/.cvsignore:
+	* Lush/icons/.cvsignore:
+	* Lush/icons/scalable/.cvsignore:
+	* Lush/icons/scalable/devices/.cvsignore:
+	* Lush/icons/scalable/emblems/.cvsignore:
+	* Lush/icons/scalable/filesystems/.cvsignore:
+	* Lush/icons/scalable/mimetypes/.cvsignore:
+	* Nuvola/.cvsignore:
+	* Nuvola/icons/.cvsignore:
+	* Nuvola/icons/scalable/.cvsignore:
+	* Nuvola/icons/scalable/apps/.cvsignore:
+	* Nuvola/icons/scalable/devices/.cvsignore:
+	* Nuvola/icons/scalable/emblems/.cvsignore:
+	* Nuvola/icons/scalable/filesystems/.cvsignore:
+	* Nuvola/icons/scalable/mimetypes/.cvsignore:
+	Add some new .cvsignore to shut cvs up
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* Makefile.am: impliment a 'make tarballs' target which will
+	build tarballs of the themes.
+
+2003-04-17  Alex Duggan  <aldug@astrolinux.com>
+
+	* configure.in:
+	* Galaxy/Makefile.am:
+	move metacity theme from metacity to metacity-1
+	
+	* BlueSphere/icons/Makefile.am:
+	translate index.theme.in
+	
+2003-04-04  Yanko Kaneti <yaneti@declera.com>
+
+	* configure.in:
+	* gnome-themes-extras.spec.in (added): First spec. 
+	* Galaxy/gtk-2.0/Makefile.am: 
+	* Makefile.am: install the Galaxy theme in the correct place.
+
+2003-03-39  Christian F.K. Schaller <Uraeus@gnome.org>
+	* Added Lush, BlueSphere and Galaxy themes
+
+2003-03-22  Christian F.K. Schaller <Uraeus@gnome.org>
+
+	* Added Nuvola icon theme
+
+2003-03-21  Jakub Steiner <jimmac@ximian.com>
+
+	* emblems/emblem-video.svg -> emblem-multimedia: 
+	* emblems/emblem-seal.svg -> emblem-distinguished: rename
+	* emblem-danger.svg:
+	* emblem-ohno.svg:
+	* emblem-important.svg:
+	* emblem-generic.svg:
+	* emblem-cool.svg: replace the default
+
+   * gnome-fs-network.svg:
+   * gnome-fs-server.svg: make 3d
+
+2003-03-06  Jakub Steiner <jimmac@ximian.com>
+
+	* COPYING: it should have a license
+	* AUTHORS: ..and authors
+
+2003-02-05  Jakub Steiner <jimmac@ximian.com>
+
+	* my-computer.svg: perfectioning the shadow, fixed a stroke type
+	  (there's a rendering bug in librsvg if the closed path uses
+	  'square' brush.
+
+2003-02-05  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: stuffit symlink
+	* my-computer.svg: drop the gnome foot, too complex. color,
+     bounding box.
+
+2003-02-03  Jakub Steiner <jimmac@ximian.com>
+
+	* gnome-mime-application-x-rpm.svg:
+	* gnome-mime-application-x-deb.svg: temporary, need correct
+	 perspective
+	* gnome-terminal.svg:
+	* my-computer.svg: finally I managed to actually do something
+	  new. Scaling old stuff isn't much fun.
+	* Gorilla/icons/scalable/mimetypes/Makefile.am: add symlink for
+	  oggs
+	
+2003-01-24  Jakub Steiner <jimmac@ximian.com>
+
+	* *.svg: s/px/pt/ - be resolution independent. I hope Nautilus
+	  will scale the icons appropriately on different DPI settings
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-msword.svg:
+	  MS word files
+
+2003-01-24  Jakub Steiner <jimmac@ximian.com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-font.svg,
+	  gnome-mime-application-x-font.svg,
+	  Makefile.am: rename, add some symlinks, force symlinks
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	* po/POTFILES.in:
+	Make distcheck fixes
+	
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/scalable/mimetypes/Makefile.am:
+	create a gnome-mime-font-ttf.svg symlink to gnome-mime-font.svg
+	
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/.cvsignore: 
+	* Gorilla/.cvsignore:
+	Add index.theme
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/icons/index.theme: remove from cvs
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* po/.cvsignore: initial commit
+	
+2003-01-24  Jakub Steiner <jimmac * ximian * com>
+
+	* Gorilla/icons/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.writer.svg,
+	gnome-mime-application-vnd.sun.xml.impress.svg,
+	gnome-mime-application-vnd.sun.xml.calc.svg,
+	gnome-mime-application-vnd.sun.xml.draw.svg, 
+	Makefile.am: StarOffice icons
+
+	* Gorilla/icons/scalable/filesystems/Makefile.am: add missing
+	.icon files
+
+	* Gorilla/icons/scalable/emblems/emblem-seal.svg,
+	Makefile.am: the 'seal of approval' emblem
+
+	* ~mimetypes/gnome-mime-application-x-gnome-app-info.svg,
+	Makefile.am: .desktop files
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* Gorilla/.cvsignore:
+	* Gorilla/gtk/.cvsignore:
+	* Gorilla/gtk-2.0/.cvsignore:
+	* Gorilla/icons/.cvsignore:
+	* Gorilla/icons/scalable/.cvsignore:
+	* Gorilla/icons/scalable/devices/.cvsignore:
+	* Gorilla/icons/scalable/emblems/.cvsignore:
+	* Gorilla/icons/scalable/filesystems/.cvsignore:
+	* Gorilla/icons/scalable/mimetypes/.cvsignore:
+	Initial commit of these
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+
+	* .cvsignore: Add a .cvsignore
+
+2003-01-23  Jakub Steiner <jimmac * ximian * com>
+
+	* Gorilla/gtk-2.0/Makefile.am: add missing stock_no.svg
+	* Gorilla/gtk/gtkrc,
+	Gorilla/gtk-2.0/gtkrc: use mist instead (temporarily)
+
+	* configure.in,
+	Gorilla/Makefile.am,
+	Gorilla/gtk/Makefile.am: add gtk1 theme 
+
+2003-01-23  Alex Duggan  <aldug@astrolinux.com>
+	
+	* Initial autotools work

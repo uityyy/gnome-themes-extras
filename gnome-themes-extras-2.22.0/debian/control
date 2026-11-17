@@ -1,0 +1,24 @@
+Package: gnome-themes-extras
+Version: 2.22.0-3
+Architecture: all
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 12698
+Depends: gtk2-engines (>= 1:2.14), librsvg2-common
+Recommends: gnome-themes-more
+Section: gnome
+Priority: optional
+Description: extra themes for the GNOME desktop
+ This package contains a few nice contributed themes for the GNOME
+ desktop. It includes the following global themes:
+ .
+  * Darklooks, a dark version of the standard Clearlooks theme.
+  * Unity, a smooth and rounded theme.
+ .
+ It also includes some icon themes for the desktop:
+ .
+  * GNOME Alternative, which is similar to the standard GNOME icon
+    theme.
+  * Foxtrot, a simple theme in yellow tones.
+  * Dropline Neu, a flashy and colorful theme resembling Dropline
+    GNOME.
+  * Gion, an original and sober theme.
