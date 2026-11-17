@@ -1,5 +1,5 @@
---- gtk-themes/Darklooks/gtk-2.0/gtkrc.orig	2008-12-31 13:48:06.861890269 +0100
-+++ gtk-themes/Darklooks/gtk-2.0/gtkrc	2008-12-31 13:48:20.583538899 +0100
+--- a/gtk-themes/Darklooks/gtk-2.0/gtkrc.orig	2008-12-31 13:48:06.861890269 +0100
++++ b/gtk-themes/Darklooks/gtk-2.0/gtkrc	2008-12-31 13:48:20.583538899 +0100
 @@ -1,6 +1,6 @@
  # Set GtkSettings color scheme property.
  # This can be overriden (via an xsetting) with eg. the gnome-appearance-properties.

@@ -1,12 +1,10 @@
 Source: gnome-themes-extras
 Section: gnome
 Priority: optional
-Maintainer: Josselin Mouette <joss@debian.org>
-Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Emilio Pozuelo Monfort <pochu@ubuntu.com>, Loic Minier <lool@dooz.org>
-Build-Depends: debhelper (>= 5),
-               cdbs,
-               gnome-pkg-tools
+Maintainer: Timothy Gaskell <tngaskell@gmail.com>
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: icon-naming-utils,
+                     gnome-pkg-tools,
                      intltool,
                      pkg-config
 Standards-Version: 3.8.0
@@ -17,18 +15,18 @@ Depends: ${misc:Depends},
          gtk2-engines (>= 1:2.14),
          librsvg2-common
 Recommends: gnome-themes-more
-Description: extra themes for the GNOME desktop
- This package contains a few nice contributed themes for the GNOME
- desktop. It includes the following global themes:
+Description: extra themes originally for the GNOME 2 desktop
+ This package includes icon four themes originally contributed for
+ the GNOME 2 desktop and configured to work with modern Xfce:
+ .
+  * Dropline Neu, a flashy and colorful theme resembling Dropline 
+    GNOME.
+  * Foxtrot, Tango-like icons with Bluecurve-like colour.
+  * Gion, an original and sober theme.
+  * GNOME Alternative, like the default GNOME 2 theme but with
+    more-open folders.
+ .
+ It also contains two GTK2 + Metacity themes: 
  .
   * Darklooks, a dark version of the standard Clearlooks theme.
   * Unity, a smooth and rounded theme.
- .
- It also includes some icon themes for the desktop:
- .
-  * GNOME Alternative, which is similar to the standard GNOME icon 
-    theme.
-  * Foxtrot, a simple theme in yellow tones.
-  * Dropline Neu, a flashy and colorful theme resembling Dropline 
-    GNOME.
-  * Gion, an original and sober theme.

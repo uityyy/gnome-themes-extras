@@ -1,3 +1,15 @@
+gnome-themes-extras (2.22.0-scrollbar4) unstable; urgency=medium
+
+  * Revive historical Debian package for Scrollbar Linux.
+  * Rewrite description emphasizing use as icon themes for Xfce.
+  * Define symlinks to make the icon themes favour generic icons
+    in their own style over specialized icons from fallback themes
+    (because 2026 fallback icons look incongruous with 2000s icons).
+  * Upate format to quilt
+  * Switch from cdbs to dh (assisted by Gemini)
+
+ -- Timothy Gaskell <tngaskell@gmail.com>  Mon, 17 Nov 2026 00:09:30 -0600
+
 gnome-themes-extras (2.22.0-3) unstable; urgency=low
 
   * Remove the duplicate icon cache generation, now that 
